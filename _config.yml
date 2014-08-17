@@ -1,0 +1,30 @@
+# Site settings
+title: Steamworks.NET
+email: contact@rileylabrecque.com
+description: "Steamworks.NET Documentation"
+baseurl: ""
+url: "/"
+twitter_username: rileylabrecque
+github_username:  rlabrecque
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+navigation:
+- text: Installation
+  url: /installation/
+- text: Getting started
+  url: /gettingstarted/
+- text: Introduction to Steamworks
+  url: /introduction/
+- text: Code Snippits
+  url: /snippits/
+- text: Frequently Asked Questions
+  url: /faq/
+- text: Support
+  url: /support/
+- text: Games using Steamworks.NET
+  url: /games/
+- text: Changelog
+  url: /changelog/

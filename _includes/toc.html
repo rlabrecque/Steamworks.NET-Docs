@@ -1,0 +1,13 @@
+<ul class="current">
+    {% for link in site.navigation %}
+        {% assign current = nil %}
+        {% if page.url == link.url %}
+            {% assign current = 'current' %}
+        {% endif %}
+
+    <li class="toctree-l1 {{ current }}">
+        <a class="{{ current }}" href="{{ link.url }}">{{link.text}}</a>
+        {% if current == 'current' %}<div class="toc"></div>{% endif %}
+    </li>
+    {% endfor %}
+</ul>
