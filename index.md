@@ -4,7 +4,7 @@ layout: default
 ---
 ## Overview
 
-Steamworks.NET is a C# Wrapper for Valve's Steamworks API and is completely free and open source under the permissive MIT license!. A primary goal is to be as easy to get started as possible.
+Steamworks.NET is a C# Wrapper for Valve's Steamworks API and is completely free and open source under the permissive MIT license! A primary goal is to be as easy to get started as possible.
 
 ---
 

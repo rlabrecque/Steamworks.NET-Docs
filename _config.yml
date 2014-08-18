@@ -10,6 +10,7 @@ github_username:  rlabrecque
 # Build settings
 markdown: kramdown
 permalink: pretty
+titlecase: false
 
 navigation:
 - text: Installation
@@ -25,6 +26,6 @@ navigation:
 - text: Support
   url: /support/
 - text: Games using Steamworks.NET
-  url: /games/
+  url: /gameslist/
 - text: Changelog
   url: /changelog/
