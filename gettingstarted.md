@@ -8,9 +8,13 @@ After completing the [Installation](/installation/) steps you can start using St
 
 The SteamManager script provides a great starting point for your project and I would highly recommend utilizing it in your project as it will signifigently cut down on the time required to get up and running.
 
-Simply download the [SteamManager](https://raw.githubusercontent.com/rlabrecque/SteamManager/master/SteamManager.cs) script into your project and add it to a GameObject in your first scene!
+If you are using Steamworks.NET from the .unitypackage you can import it directly into your project. Otherwise if you have cloned Steamworks.NET from Github you must download the [SteamManager](https://raw.githubusercontent.com/rlabrecque/SteamManager/master/SteamManager.cs) script manually.
 
-I would first recommend trying out an easy SteamAPI method call.
+Once the SteamManager script is in your project simply create a new empty GameObject in your first scene and add the SteamManager script to it.
+
+You can now be able to launch your game and Steam should show you in-game.
+
+I would then recommend trying out an easy SteamAPI method call.
 
 We'll create a new script called `SteamScript.cs`:
 
@@ -22,7 +26,6 @@ using Steamworks;</code></pre>
 
 Next we'll add our function call which gets the display name of the Steam user like so.
 
-Note that we ALWAYS ensure that Steam is initalized by checking SteamManager.Initialized before calling any Steamworks functions.
 
 <pre><code>public class SteamScript : MonoBehaviour {
 	void Start() {
@@ -33,6 +36,8 @@ Note that we ALWAYS ensure that Steam is initalized by checking SteamManager.Ini
 	}
 }</code></pre>
 
+Note that we ALWAYS ensure that Steam is initalized by checking SteamManager.Initialized before calling any Steamworks functions.
+
 Now just add the script to a GameObject and try it out!
 
 If you run into any issues have a look at the [Frequently Asked Questions](/faq/) to see if it's covered in there!
@@ -41,7 +46,7 @@ You are successfully using Steamworks!
 
 ### Steam Callbacks
 
-Callbacks are an important feature of Steamworks, they allow you to retrieve data from Steam without locking up your game.
+Callbacks are an important feature of Steamworks, they allow you to retrieve data asynchronously from Steam without locking up your game.
 
 One such Callback that you will likely wish to utilize is called `GameOverlayActivated_t`. As the name implies it sends you a callback every time the Steam Overlay is activated or deactivated.
 
@@ -136,11 +141,11 @@ The function signature of a CallResult is slightly different than a Callback wit
 	}
 
 	private void OnNumberOfCurrentPlayers(NumberOfCurrentPlayers_t pCallback, bool bIOFailure) {
-		if (pCallback.m_bSuccess && bIOFailure) {
-			Debug.Log("The number of players playing your game: " + pCallback.m_cPlayers);
+		if (pCallback.m_bSuccess != 1 || bIOFailure) {
+			Debug.Log("There was an error retrieving the NumberOfCurrentPlayers.");
 		}
 		else {
-			Debug.Log("There was an error retrieving the NumberOfCurrentPlayers.");
+			Debug.Log("The number of players playing your game: " + pCallback.m_cPlayers);
 		}
 	}
 }</code></pre>
@@ -159,17 +164,17 @@ Finally the last thing that we need is to call a function which returns the Call
 	private void Update() {
 		if(Input.GetKeyDown(KeyCode.Space)) {
 			SteamAPICall_t handle = SteamUserStats.GetNumberOfCurrentPlayers();
-			NumberOfCurrentPlayers.Set(handle);
-			Debug.Log("Called GetNumberOfCurrentPlayers");
+			m_NumberOfCurrentPlayers.Set(handle);
+			Debug.Log("Called GetNumberOfCurrentPlayers()");
 		}
 	}
 
 	private void OnNumberOfCurrentPlayers(NumberOfCurrentPlayers_t pCallback, bool bIOFailure) {
-		if (pCallback.m_bSuccess && bIOFailure) {
-			Debug.Log("The number of players playing your game: " + pCallback.m_cPlayers);
+		if (pCallback.m_bSuccess != 1 || bIOFailure) {
+			Debug.Log("There was an error retrieving the NumberOfCurrentPlayers.");
 		}
 		else {
-			Debug.Log("There was an error retrieving the NumberOfCurrentPlayers.");
+			Debug.Log("The number of players playing your game: " + pCallback.m_cPlayers);
 		}
 	}
 }</code></pre>

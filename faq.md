@@ -19,16 +19,18 @@ There are many cases where the overlay collides with Unity, unfortunately it hap
 Some such causes that are known to cause the overlay to break are:
 
  * The Overlay is not supported in the editor.
- * The Overlay is not supported when run from outside of steam.
+ * The Overlay is not supported when running from outside of steam.¹
  * There are incompatabilities between Unity and the Steam Overlay when running under DirectX11
+
+¹ For the Steam Overlay to work it must be injected before the renderer (DirectX/OpenGL) gets initialized. This is not feasible from Unity as Scripts only start running after the renderer is set up and injection is done in `SteamAPI.Init()`. It works when launched through Steam as Steam will always inject the overlay as the process starts.
 
 ### What languages does Steamworks.NET support?
 
 In theory it should work with any .NET based language! Documentation is only provided for C#, but many people have used it from UnityScript as well. Let me know if you're using it from Boo!
 
-### Unity Standalone builds don't launch
+### My Unity Standalone build doesn't launch!
 
-You are likely missing the steam_appid.txt from your 
+You are likely missing the steam_appid.txt from your output folder. Steamworks.NET does not copy it over automatically because it is not something that you should be shipping to customers.
 
 ### Steam only shows me playing 'SpaceWar' how do I change it to my game?
 
