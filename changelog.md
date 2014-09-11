@@ -2,6 +2,18 @@
 title: Changelog
 layout: default
 ---
+# Release 5.0.0
+
+* Feature: **Updated to Steamworks SDK 1.31.**
+* Feature: Increased support for Unity 4.6 beta and 5.0 beta.
+* Feature: Added the DllCheck class which can detect runtime steam_api.dll version issues.
+* Feature: Wrapped all function comments in &lt;summary&gt; tags to display them in the visual studio tooltips.
+
+* Fixed: Corrected two ISteamMusicRemote function arguments from 'IntPtr' to 'AppId_t[]'
+* Fixed: Removed the readonly flag from copied files to play nicer with some version control systems. (Thanks @neophit)
+
+---
+
 # Release 4.0.0
 
 * Feature: **Updated to Steamworks SDK 1.30.**
