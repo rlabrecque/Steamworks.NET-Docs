@@ -209,33 +209,34 @@ With this pattern you can use the SteamManager from any scene in your game witho
 
 If you already have a method of maintaining global state in your game you may wish to replace this with your own method.
 
-<pre><code>private static SteamManager m_instance;
+<pre><code>private static SteamManager s_instance;
 private static SteamManager Instance {
 	get {
-		return m_instance ??
-			(m_instance = GameObject.FindObjectOfType&lt;SteamManager&gt;()) ??
-			(m_instance = new GameObject("SteamManager").AddComponent&lt;SteamManager&gt;());
+		return m_instance ?? new GameObject("SteamManager").AddComponent<SteamManager>();
 	}
 }
 
 private void Awake() {
-	if (m_instance != null) {
+	if (s_instance != null) {
 		Destroy(gameObject);
 		return;
 	}
-	m_instance = this;
+	s_instance = this;
 
 	DontDestroyOnLoad(gameObject);
 }
 
 private void OnEnable() {
-	if (m_instance == null) {
-		m_instance = this;
+	if (s_instance == null) {
+		s_instance = this;
 	}
 }
 
 private void OnDestroy() {
-	m_instance = null;
+	if (m_instance != this) {
+		return;
+	}
+	s_instance = null;
 }</code></pre>
 
 ### Sanity Checks
