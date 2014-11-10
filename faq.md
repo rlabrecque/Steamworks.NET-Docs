@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 layout: default
 ---
-### Can Steamworks.NET be used within the Steam Editor?
+### Can Steamworks.NET be used within the Unity Editor?
 
 Yes absolutely!
 
