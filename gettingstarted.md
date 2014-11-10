@@ -212,7 +212,7 @@ If you already have a method of maintaining global state in your game you may wi
 <pre><code>private static SteamManager s_instance;
 private static SteamManager Instance {
 	get {
-		return m_instance ?? new GameObject("SteamManager").AddComponent<SteamManager>();
+		return m_instance ?? new GameObject("SteamManager").AddComponent&lt;SteamManager&gt;();
 	}
 }
 
