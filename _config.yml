@@ -17,8 +17,8 @@ navigation:
   url: /installation/
 - text: Getting started
   url: /gettingstarted/
-- text: Introduction to Steamworks
-  url: /introduction/
+- text: SteamManager
+  url: /steammanager/
 - text: Code Snippits
   url: /snippits/
 - text: Frequently Asked Questions

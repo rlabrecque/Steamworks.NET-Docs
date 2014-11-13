@@ -43,11 +43,13 @@ If you are not using Unity then you have two available routes that you could tak
 		* **libCSteamworks.so**
 		* **libsteam_api.so**
 
+Head over to [Getting Started](/gettingstarted/) to start using Steamworks.NET
+
 ---
 
 ## Using Steam Encrypted App Ticket?
 
-The functions exposed via `sdkencryptedappticket.h` are supported in Steamworks.NET but you will need to manually place `sdkencryptedappticket.dll/so/dylib` in the following locations depending on the platform:
+The functions exposed via `sdkencryptedappticket.h` are supported in Steamworks.NET but you will need to manually place the `sdkencryptedappticket.dll/so/dylib` binaries in the following locations depending on the platform:
 
 * Windows: Next to steam_api.dll
 * OSX: In `/Contents/Frameworks/MonoEmbedRuntime/osx/`
