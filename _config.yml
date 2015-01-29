@@ -29,3 +29,5 @@ navigation:
   url: /gameslist/
 - text: Changelog
   url: /changelog/
+
+destination: ../Steamworks.NET_public

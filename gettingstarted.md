@@ -12,7 +12,7 @@ If you are using Steamworks.NET from the .unitypackage you can import it directl
 
 Once the SteamManager script is in your project simply create a new empty GameObject in your first scene and add the SteamManager script to it.
 
-You can now be able to launch your game and Steam should show you in-game.
+You will now be able to launch your game and Steam should show you in-game.
 
 ---
 
@@ -183,8 +183,8 @@ Finally the last thing that we need is to call a function which returns the Call
 
 And that's it for CallResults!
 
-For both Callbacks and CallResults you must be calling `SteamAPI.RunCallbacks` on a regular basis. [This is done in SteamManager](http://localhost:4000/steammanager/#steamapiruncallbacks).
+For both Callbacks and CallResults you must be calling `SteamAPI.RunCallbacks` on a regular basis. [This is done in SteamManager](/steammanager/#steamapiruncallbacks).
 
-Now that you have familiarized yourself with the building blocks of Steamworks check out the [Steamworks.NET Example](https://github.com/rlabrecque/) application to see an industrial strength implementation of Steamworks Stats and Achievements!
+Now that you have familiarized yourself with the building blocks of Steamworks check out the [Steamworks.NET Example](https://github.com/rlabrecque/Steamworks.NET-Example) application to see an industrial strength implementation of Steamworks Stats and Achievements!
 
 It's also recommended that you have a look at Valve's own documentation on [Getting started with the Steamworks API](https://partner.steamgames.com/documentation/getting_started)!
