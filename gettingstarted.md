@@ -187,4 +187,6 @@ For both Callbacks and CallResults you must be calling `SteamAPI.RunCallbacks` o
 
 Now that you have familiarized yourself with the building blocks of Steamworks check out the [Steamworks.NET Example](https://github.com/rlabrecque/Steamworks.NET-Example) application to see an industrial strength implementation of Steamworks Stats and Achievements!
 
+The [Steamworks.NET-Test](https://github.com/rlabrecque/Steamworks.NET-Test) project can be extremely valuable to figure out how accomplish various things in Steamworks.NET.
+
 It's also recommended that you have a look at Valve's own documentation on [Getting started with the Steamworks API](https://partner.steamgames.com/documentation/getting_started)!

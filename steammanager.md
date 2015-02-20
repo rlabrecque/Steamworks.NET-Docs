@@ -62,7 +62,7 @@ Steamworks.NET provides a couple non-essential sanity checks to ensure that Stea
 
 `Packsize.Test()` ensures that Steamworks.NET is running under the correct platform, In Unity under normal operation this should never return false.
 
-`DllCheck.Test()` checks to make sure the Steamworks redistributable binaries are the correct version. This is particularily useful when you upgrade Steamworks.NET, Especially if you are not using the Steamworks.NET editor scripts. Running Steamworks.NET with the wrong steam_api.dll can potentially have problematic consequences.
+`DllCheck.Test()` checks to make sure the Steamworks redistributable binaries are the correct version. This is particularily useful when you upgrade Steamworks.NET, Especially if you are not using the Steamworks.NET editor scripts. Running Steamworks.NET with the wrong steam_api.dll will likely result in issues. (Currently only checks steam_api[64].dll)
 
 <pre><code>if (!Packsize.Test()) {
 	Debug.LogError("[Steamworks.NET] Packsize Test returned false, the wrong version of Steamworks.NET is being run in this platform.", this);
@@ -82,7 +82,7 @@ If it returns false, your game was launched by the Steam client and execution co
 
 If the steam_appid.txt file is present in the current working directory then SteamAPI_RestartAppIfNecessary() will return false.
 
-Being that this is the first Steamworks function which gets called this is the ideal location to ensure that the steam_api.dll and CSteamworks.dll can be infact be loaded. This is accomplished by wrapping this function call in a try..catch block.
+Being that this is the first Steamworks function which gets called this is the ideal location to ensure that the steam_api.dll and CSteamworks.dll can infact be loaded. This is accomplished by wrapping this function call in a try..catch block.
 
 <pre><code>private void Awake() {
 	try {
