@@ -12,12 +12,12 @@ layout: default
   <li>Changed: Added [Flags] to EHTMLKeyModifiers</li>
   <li>Changed: Catch exceptions that happen within Callbacks/CallResults</li>
   <li>Changed: HTML_ComboNeedsPaint_t &amp; HTML_NeedsPaint_t.pBGRA from string -&gt; IntPtr</li>
-  <li>Changed: Added [In, Out] attribute to all array arguments when P/Invoking (May fix some cases of corrupted marshalling)</li>
+  <li>Changed: Added [In, Out] attribute to all array arguments when P/Invoking (May fix some cases of corrupted marshaling)</li>
 </ul>
 <ul>
   <li>Fixed: MatchMakingKeyValuePair_t when using more than 1 filter.</li>
   <li>Fixed: ISteamHTMLSurface missing some of it’s parameters</li>
-  <li>Fixed: Callbacks crashing under Mono</li>
+  <li>Fixed: Callbacks crashing under Mono 3.2.7 and higher</li>
 </ul>
 <hr />
 <h1 id="release-500">Release 5.0.0</h1>
