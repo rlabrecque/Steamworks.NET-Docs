@@ -87,7 +87,7 @@ The last piece of the puzzle is the OnGameOverlayActivated function.
 	}
 
 	private void OnGameOverlayActivated(GameOverlayActivated_t pCallback) {
-		if(pCallback.m_bActive) {
+		if(pCallback.m_bActive != 0) {
 			Debug.Log("Steam Overlay has been activated");
 		}
 		else {
