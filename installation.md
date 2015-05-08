@@ -10,7 +10,7 @@ The Simple instructions to get you up and running with Steamworks.NET!
 Steamworks.NET requires Unity Pro for the plugin functionality.
 
 * Download the .unitypackage [Stable (6.0.0)](https://github.com/rlabrecque/Steamworks.NET/releases/download/6.0.0/Steamworks.NET_6.0.0.unitypackage) or Clone from [Github](https://github.com/rlabrecque/Steamworks.NET)
-* Extract and copy Steamworks.NET's `Plugins/` and `Editor/` folders into your `Assets/` folder.
+* Import everything into your `Assets/` folder.
 * Launch your Unity project. The included editor scripts will copy steam_appid.txt (and steam_api.dll if your on windows) into the root of your project.
 * Open `steam_appid.txt` which now resides in the root of your Unity project and replace `480` with your own AppId.
 * Close Unity and relaunch the project so that it loads the freshly copied steam_appid.txt & steam_api.dll.
