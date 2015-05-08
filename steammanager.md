@@ -76,13 +76,15 @@ if (!DllCheck.Test()) {
 
 The first Steamworks function call which the script makes is `SteamAPI.RestartAppIfNecessary((AppId)480)`. Replace 480 with your own AppId.
 
-SteamAPI.RestartAppIfNecessary() detects if the Steam client is running, if Steam is not running or the game wasn't started through Steam. It will return true if a Restart is needed. If it returns true it starts the Steam client if required and launches your game again through it, you should then manually close your application as quickly as possible.
+SteamAPI.RestartAppIfNecessary() checks if the Steam client is running, and will start it if it's not.
+
+If it returns true it starts the Steam client if required and launches your game again through it, you should then manually close your application as quickly as possible. This effectively runs `steam://run/[AppId]` so it may not relaunch the exact executable that called it.
 
 If it returns false, your game was launched by the Steam client and execution continues as normal.
 
-If the steam_appid.txt file is present in the current working directory then SteamAPI_RestartAppIfNecessary() will return false.
+If the steam_appid.txt file is present in the current working directory then SteamAPI_RestartAppIfNecessary() will return false. This allows you to develop without relaunching through Steam every time.
 
-Being that this is the first Steamworks function which gets called this is the ideal location to ensure that the steam_api.dll and CSteamworks.dll can infact be loaded. This is accomplished by wrapping this function call in a try..catch block.
+Being that this is the first Steamworks function which gets called it is the ideal location to ensure that the steam_api.dll and CSteamworks.dll can infact be loaded. This is accomplished by wrapping this function call in a try..catch block to catch DllNotFoundException.
 
 <pre><code>private void Awake() {
 	try {
