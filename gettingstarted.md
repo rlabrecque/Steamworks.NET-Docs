@@ -6,7 +6,7 @@ layout: default
 
 After completing the [Installation](/installation/) steps you can start using Steamworks.NET in your project.
 
-The SteamManager script provides the ideal starting point for your project and I would highly recommend utilizing it as it will signifigently cut down on the time required to get up and running.
+The SteamManager script provides the ideal starting point for your project and I would highly recommend utilizing it as it will significantly cut down on the time required to get up and running.
 
 If you are using Steamworks.NET from the .unitypackage you can import it directly into your project. Otherwise if you have cloned Steamworks.NET from Github you must download the [SteamManager.cs](https://raw.githubusercontent.com/rlabrecque/SteamManager/master/SteamManager.cs) script manually.
 
