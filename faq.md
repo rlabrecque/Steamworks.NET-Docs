@@ -38,11 +38,7 @@ When you launch your game from outside of Steam it relies on steam_appid.txt to 
 
 ### Does the Steam DRM wrapper work with Unity or XNA/Monogame?
 
-No it doesn't. Unfortunately The DRM wrapper does not play well with .NET applications such as Unity and your application will likely fail to start if it's wrapped. Even if it does succeed and work for you it will often fail on other computers.
-
-### Do I need the Pro version of Unity to use Steamworks.NET?
-
-Officially Yes.
+No it doesn't. Unfortunately the Steam DRM wrapper does not play well with .NET applications such as Unity and your application will likely fail to start if it's wrapped. Even if it does succeed and work for you it will often fail on other computers.
 
 ### The achievement popup only occurs after I quit my game.
 

@@ -7,7 +7,6 @@ The Simple instructions to get you up and running with Steamworks.NET!
 **To use _Steamworks.NET_ you must already be a Steamworks developer.**
 
 ## Unity Instructions
-Steamworks.NET requires Unity Pro for the plugin functionality.
 
 * Download the .unitypackage [Stable (6.0.0)](https://github.com/rlabrecque/Steamworks.NET/releases/download/6.0.0/Steamworks.NET_6.0.0.unitypackage) or Clone from [Github](https://github.com/rlabrecque/Steamworks.NET)
 * Import everything into your `Assets/` folder.
