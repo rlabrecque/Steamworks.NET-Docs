@@ -6,6 +6,7 @@ Steamworks.NET is used by over 200 games currently shipping on Steam! These are 
 
 * [A Druid's Duel](http://store.steampowered.com/app/333970/) by [Thoughtshelter Games](http://druidsduel.com/)
 * [AaaaaAAaaaAAAaaAAAAaAAAAA!!! for the Awesome](http://store.steampowered.com/app/15560/) by [Dejobaan Games, LLC](http://dejobaan.com/) & [Owlchemy Labs](http://owlchemylabs.com/)
+* [Abduction Action! Plus](http://store.steampowered.com/app/360580/) by [Fun Infused Games](http://funinfused.com)
 * [Absolute Drift](http://store.steampowered.com/app/320140/) by [Funselektor Labs Inc.](http://absolutedrift.com/)
 * [Adventure in the Tower of Flight](http://store.steampowered.com/app/368830/) by [Pixel Barrage Entertainment, Inc.](http://pixelbarrage.com/)
 * [Autocraft](http://store.steampowered.com/app/287220/) by [Alientrap](http://store.steampowered.com/app/287220/)
@@ -26,5 +27,6 @@ Steamworks.NET is used by over 200 games currently shipping on Steam! These are 
 * [Twin Robots](http://store.steampowered.com/app/374230/) by [Thinice](http://thinicegames.com)
 * [Unturned](http://store.steampowered.com/app/304930/) by [Smartly Dressed Games](http://smartlydressedgames.com)
 * [Vertiginous Golf](http://store.steampowered.com/app/272890/) by [Kinelco Ltd](http://kinelco.com/) & [Lone Elk Creative](http://lone-elk.com/)
+* [VolChaos](http://store.steampowered.com/app/354030/) by [Fun Infused Games](http://funinfused.com)
 
 If you want your game on this list send me an [Email](mailto:support@rileylabrecque.com) or a message on [Twitter](http://twitter.com/rileylabrecque)!
