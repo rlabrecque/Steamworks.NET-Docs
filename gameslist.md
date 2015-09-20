@@ -21,6 +21,7 @@ Steamworks.NET is used by over 200 games currently shipping on Steam! These are 
 * [Pivvot](http://store.steampowered.com/app/293900/) by [Fixpoint Productions Ltd.](http://wtrebella.com)
 * [Race The Sun](http://store.steampowered.com/app/253030/) by [Flippfly LLC](http://flippfly.com)
 * [Robot Roller-Derby Disco Dodgeball](http://store.steampowered.com/app/270450/) by [82apps](http://82apps.com/)
+* [Scraps: Modular Vehicle Combat](http://store.steampowered.com/app/350150/) by [Moment Studio](http://momentstudio.co.nz)
 * [Soccer Rage](http://store.steampowered.com/app/356510/) by [Stamina-Games](http://stamina-games.com/)
 * [Spectraball](http://store.steampowered.com/app/18300/) by [Shorebound Studios](http://shoreboundstudios.com)
 * [The Tiny Tale 2](http://store.steampowered.com/app/340720/) by [Running Pillow](http://runningpillow.com/)
