@@ -18,6 +18,7 @@ Steamworks.NET is used by over 200 games currently shipping on Steam! These are 
 * [Hot Tin Roof: The Cat That Wore A Fedora](http://store.steampowered.com/app/253390/) by [Glass Bottom Games](http://glassbottomgames.com/)
 * [Hyphen](http://store.steampowered.com/app/346510/) by [FarSpace Studios](http://farspacestudios.com/)
 * [Imagine Me](http://store.steampowered.com/app/265670/) by [KinifiGames LLC](http://imaginemegame.com)
+* [Indie Game Battle](http://store.steampowered.com/app/407620/) by [Blob Games Studio](https://twitter.com/blobgamesstudio)
 * [Parallax](http://store.steampowered.com/app/325060/) by [Toasty Games](http://toastygames.com/)
 * [PING 1.5+](http://store.steampowered.com/app/363580/) by [NAMI TENTOU MUSHI, LLC](http://namitentou.com)
 * [Pivvot](http://store.steampowered.com/app/293900/) by [Fixpoint Productions Ltd.](http://wtrebella.com)
