@@ -10,6 +10,7 @@ Steamworks.NET is used by over 200 games currently shipping on Steam! These are 
 * [Absolute Drift](http://store.steampowered.com/app/320140/) by [Funselektor Labs Inc.](http://absolutedrift.com/)
 * [Adventure in the Tower of Flight](http://store.steampowered.com/app/368830/) by [Pixel Barrage Entertainment, Inc.](http://pixelbarrage.com/)
 * [Autocraft](http://store.steampowered.com/app/287220/) by [Alientrap](http://store.steampowered.com/app/287220/)
+* [Ballistic Overkill](http://store.steampowered.com/app/296300/) by [Aquiris Game Studio](http://aquiris.com.br)
 * [Catlateral Damage](http://store.steampowered.com/app/329860/) by [Chris Chung, Fire Hose Games](http://catlateraldamage.com)
 * [Dead Sky](http://store.steampowered.com/app/259700/) by [Shorebound Studios](http://shoreboundstudios.com)
 * [Dyscourse](http://store.steampowered.com/app/234920/) by [Owlchemy Labs](http://owlchemylabs.com/)
