@@ -18,6 +18,7 @@ Steamworks.NET is used by over 200 games currently shipping on Steam! These are 
 * [Hyphen](http://store.steampowered.com/app/346510/) by [FarSpace Studios](http://farspacestudios.com/)
 * [Imagine Me](http://store.steampowered.com/app/265670/) by [KinifiGames LLC](http://imaginemegame.com)
 * [Parallax](http://store.steampowered.com/app/325060/) by [Toasty Games](http://toastygames.com/)
+* [PING 1.5+](http://store.steampowered.com/app/363580/) by [NAMI TENTOU MUSHI, LLC](http://namitentou.com)
 * [Pivvot](http://store.steampowered.com/app/293900/) by [Fixpoint Productions Ltd.](http://wtrebella.com)
 * [Press X to Not Die](http://store.steampowered.com/app/402330/) by [All Seeing Eye Games](http://pressxtonotdie.com)
 * [Race The Sun](http://store.steampowered.com/app/253030/) by [Flippfly LLC](http://flippfly.com)
