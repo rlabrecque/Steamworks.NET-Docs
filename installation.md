@@ -2,7 +2,7 @@
 title: Installation
 layout: default
 ---
-The Simple instructions to get you up and running with Steamworks.NET!
+The simple instructions to get you up and running with Steamworks.NET!
 
 **To use _Steamworks.NET_ you must already be a Steamworks developer.**
 
@@ -17,6 +17,10 @@ The Simple instructions to get you up and running with Steamworks.NET!
 
 Head over to [Getting Started](/gettingstarted/) to start using Steamworks.NET
 
+_Steamworks.NET_ is a free project but if it helps you make money please consider donating so that I can continue to support it in the years to come!
+
+[![Support via Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YFZZER8VNXKRC)
+
 ---
 
 ## Non-Unity Instructions
@@ -30,8 +34,9 @@ If you are not using Unity then you have two available routes that you could tak
 * B: Copy `Plugins/Steamworks.NET` into your C# project. In Visual Studio open your project properties, change to the Build tab and define `STEAMWORKS_WIN` or `STEAMWORKS_LIN_OSX` globally via `Conditional compilation symbols`.
 	* This is only recommended if your binary is not portable across platforms already. If you ship on multiple platforms you must have multiple build targets for each platforms. Please prefer the second route.
 * When you build your application the following files must be copied into the output dir:
-	* **steam_appid.txt** - Required for testing your application outside of steam. *Do not ship this to customers!*
-	* **Steamworks.NET.dll** - Make sure it's the correct version for the platform that you plan on shipping for! - When building for OSX or Linux the wrong Steamworks.NET.dll will be copied over by default, it is recommended that you create a post build script to copy the correct version.
+	* All Platforms:
+		* **steam_appid.txt** - Required for testing your application outside of steam. *Do not ship this to customers!*
+		* **Steamworks.NET.dll** - Make sure it's the correct version for the platform that you plan on shipping for! - When building for OSX or Linux the wrong Steamworks.NET.dll will be copied over by default, it is recommended that you create a post build script to copy the correct version.
 	* Windows:
 		* **CSteamworks.dll**
 		* **steam_api.dll**

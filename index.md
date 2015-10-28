@@ -10,7 +10,7 @@ Steamworks.NET is a C# Wrapper for Valve's Steamworks API and is completely free
 
 ## Features
 
-Steamworks.NET was designed to follow as close to the native Valve provided C++ API as possible and now boasts 100% coverage of the native Steamworks API across all interfaces!
+Steamworks.NET was designed to follow as close to the native Valve provided C++ API as possible and boasts 100% coverage of the native Steamworks API across all interfaces!
 
 ### Stats & Achievements
 Utilizing Steamworks Stats and Achievements API provides an easy and effective method of storing persistent gameplay stats and roaming Achievements.
@@ -37,4 +37,4 @@ The Steam Cloud provides the simpliest possible way to sync your save-game data 
 VAC is there to provide you with an additional layer of security in your competitive multiplayer experiences. It is very similar to a virus scanner and has maintains a list of known cheats to detect.
 
 ### And many more features!
-Infact Steamworks (and therefor Steamworks.NET by extension) contains far too many features to list like this
+Infact Steamworks (and therefor Steamworks.NET by extension) contains far too many features to list!

@@ -44,13 +44,7 @@ No it doesn't. Unfortunately the Steam DRM wrapper does not play well with .NET 
 
 This is most likely caused by not calling `SteamAPI.RunCallbacks()` in your game or not calling `SteamUserStats.StoreStats()` after you set an achievement.
 
-### Does Steamworks.NET work with Unity 3.5 or earlier?
+### What versions of Unity are supported?
 
-Not out of the box no. Unity 3.5 lacks some key features and supporting it was holding the rest of the project back.
-
-If you wish to use Steamworks.NET with Unity 3.5 the following changes must be made:
-
-* Remove BuildTarget.StandaloneOSXIntel64 and BuildTarget.StandaloneOSXUniversal from RedistCopy.cs
-* Copy CSteamworks.dll from Assets/Plugins/x86 out to Assets/Plugins as Unity 3.5 did not support the x86 and x86_64 special folders and won't be able to find or copy the file over. (Feel free to delete the x86_64 folder, and the x86 folder after the fact. The .so files are for Linux only which Unity 3.5 did not support)
-* Unity 3.5 did not support the UNITY_EDITOR_WIN platform define. This can cause a number of issues. The first is that steam_api.dll does not get copied over from Assets/Plugins/Steamworks.NET/redist to the Project root automatically, you must do this manually.
-* The second issue that you must worry about is your build target while playing in the editor MUST be set to the editors platform. You will likely get a crash otherwise.
+Steamworks.NET currently targets Unity 4.6, 5.0+.
+Unity Pro is required when using 4.6.
