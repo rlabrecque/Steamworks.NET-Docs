@@ -46,5 +46,4 @@ This is most likely caused by not calling `SteamAPI.RunCallbacks()` in your game
 
 ### What versions of Unity are supported?
 
-Steamworks.NET currently targets Unity 4.6, 5.0+.
-Unity Pro is required when using 4.6.
+Steamworks.NET currently targets Unity 4.6, 5.0+. Unity Pro is required when using 4.6.
