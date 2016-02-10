@@ -28,6 +28,7 @@ Steamworks.NET is used by over 200 games currently shipping on Steam! These are 
 * [Press X to Not Die](http://store.steampowered.com/app/402330/) by [All Seeing Eye Games](http://pressxtonotdie.com)
 * [Race The Sun](http://store.steampowered.com/app/253030/) by [Flippfly LLC](http://flippfly.com)
 * [Raining Blobs](http://store.steampowered.com/app/414370/) by [Endi Milojkoski](http://rainingblobs.com)
+* [Rencounter](http://store.steampowered.com/app/431810) by [SPVD](http://store.steampowered.com/app/431810)
 * [Robot Roller-Derby Disco Dodgeball](http://store.steampowered.com/app/270450/) by [82apps](http://82apps.com/)
 * [Scraps: Modular Vehicle Combat](http://store.steampowered.com/app/350150/) by [Moment Studio](http://momentstudio.co.nz)
 * [Shark Attack Deathmatch 2](http://store.steampowered.com/app/330580/) by [Lighthouse Games Studio](http://xna4.blogspot.ca/)
