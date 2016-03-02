@@ -14,6 +14,7 @@ Steamworks.NET is used by over 200 games currently shipping on Steam! These are 
 * [Ballistic Overkill](http://store.steampowered.com/app/296300/) by [Aquiris Game Studio](http://aquiris.com.br)
 * [Castle Chaos](http://store.steampowered.com/app/412410/) by [Odd Comet Games](http://oddcometgames.com/)
 * [Catlateral Damage](http://store.steampowered.com/app/329860/) by [Chris Chung, Fire Hose Games](http://catlateraldamage.com)
+* [Clumsy Moose Season](http://store.steampowered.com/app/409410) by [Enrick Lambert](http://enrickdev.com)
 * [Conflicks - Revolutionary Space Battles](http://store.steampowered.com/app/288260) by [Artifice Studio](http://artificestudio.com)
 * [Dead Sky](http://store.steampowered.com/app/259700/) by [Shorebound Studios](http://shoreboundstudios.com)
 * [Dyscourse](http://store.steampowered.com/app/234920/) by [Owlchemy Labs](http://owlchemylabs.com/)
