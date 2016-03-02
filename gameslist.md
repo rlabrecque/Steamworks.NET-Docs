@@ -35,6 +35,7 @@ Steamworks.NET is used by over 200 games currently shipping on Steam! These are 
 * [Robot Roller-Derby Disco Dodgeball](http://store.steampowered.com/app/270450/) by [82apps](http://82apps.com/)
 * [Scraps: Modular Vehicle Combat](http://store.steampowered.com/app/350150/) by [Moment Studio](http://momentstudio.co.nz)
 * [Shark Attack Deathmatch 2](http://store.steampowered.com/app/330580/) by [Lighthouse Games Studio](http://xna4.blogspot.ca/)
+* [Slybots: Frantic Zone](http://store.steampowered.com/app/384100/) by [Team ERROR, Tiny Colossus](http://slybots.com)
 * [Soccer Rage](http://store.steampowered.com/app/356510/) by [Stamina-Games](http://stamina-games.com/)
 * [Spectraball](http://store.steampowered.com/app/18300/) by [Shorebound Studios](http://shoreboundstudios.com)
 * [The Tiny Tale 2](http://store.steampowered.com/app/340720/) by [Running Pillow](http://runningpillow.com/)
