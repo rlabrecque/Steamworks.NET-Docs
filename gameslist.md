@@ -42,5 +42,6 @@ Steamworks.NET is used by over 200 games currently shipping on Steam! These are 
 * [VolChaos](http://store.steampowered.com/app/354030/) by [Fun Infused Games](http://funinfused.com)
 * [Windward](http://store.steampowered.com/app/326410/) by [Tasharen Entertainment Inc.](http://www.tasharen.com)
 * [You Must Build A Boat](http://store.steampowered.com/app/290890/) by [EightyEightGames](http://eightyeightgames.com)
+* [Yrminsul](http://store.steampowered.com/app/412490/) by [Black Flag Studios](http://studioblackflag.com)
 
 If you want your game on this list send me an [Email](mailto:support@rileylabrecque.com) or a message on [Twitter](http://twitter.com/rileylabrecque)!
