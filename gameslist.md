@@ -12,6 +12,7 @@ Steamworks.NET is used by over 200 games currently shipping on Steam! These are 
 * [Alter World](http://store.steampowered.com/app/357280/) by [Giorgi Abelashvili](http://alterworldgame.com/)
 * [Autocraft](http://store.steampowered.com/app/287220/) by [Alientrap](http://store.steampowered.com/app/287220/)
 * [Ballistic Overkill](http://store.steampowered.com/app/296300/) by [Aquiris Game Studio](http://aquiris.com.br)
+* [Bit Blaster XL](http://store.steampowered.com/app/433950/) by [Nickervision Studios](http://nickervisionstudios.com)
 * [Castle Chaos](http://store.steampowered.com/app/412410/) by [Odd Comet Games](http://oddcometgames.com/)
 * [Catlateral Damage](http://store.steampowered.com/app/329860/) by [Chris Chung, Fire Hose Games](http://catlateraldamage.com)
 * [Clumsy Moose Season](http://store.steampowered.com/app/409410) by [Enrick Lambert](http://enrickdev.com)
