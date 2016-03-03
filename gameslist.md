@@ -38,6 +38,7 @@ Steamworks.NET is used by over 200 games currently shipping on Steam! These are 
 * [Slybots: Frantic Zone](http://store.steampowered.com/app/384100/) by [Team ERROR, Tiny Colossus](http://slybots.com)
 * [Soccer Rage](http://store.steampowered.com/app/356510/) by [Stamina-Games](http://stamina-games.com/)
 * [Spectraball](http://store.steampowered.com/app/18300/) by [Shorebound Studios](http://shoreboundstudios.com)
+* [Sprinter](http://store.steampowered.com/app/442260/) by [Light Step Games](http://sprinterthegame.com)
 * [The Tiny Tale 2](http://store.steampowered.com/app/340720/) by [Running Pillow](http://runningpillow.com/)
 * [Twin Robots](http://store.steampowered.com/app/374230/) by [Thinice](http://thinicegames.com)
 * [UFHO2](http://store.steampowered.com/app/348840/) by [Tiny Colossus, Ciro Continisio](http://tinycolossus.com/)
