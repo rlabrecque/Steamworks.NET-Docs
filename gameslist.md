@@ -2,7 +2,9 @@
 title: Who's using Steamworks.NET?
 layout: default
 ---
-Steamworks.NET is used by over 200 games currently shipping on Steam! These are just a select few.
+Steamworks.NET is used by over 200 games currently shipping on Steam! These are just a few that I know about.
+
+If you want your game on this list send me an [Email](mailto:support@rileylabrecque.com) or a message on [Twitter](http://twitter.com/rileylabrecque)!
 
 * [A Druid's Duel](http://store.steampowered.com/app/333970/) by [Thoughtshelter Games](http://druidsduel.com/)
 * [AaaaaAAaaaAAAaaAAAAaAAAAA!!! for the Awesome](http://store.steampowered.com/app/15560/) by [Dejobaan Games, LLC](http://dejobaan.com/) & [Owlchemy Labs](http://owlchemylabs.com/)
@@ -20,6 +22,7 @@ Steamworks.NET is used by over 200 games currently shipping on Steam! These are 
 * [Dead Sky](http://store.steampowered.com/app/259700/) by [Shorebound Studios](http://shoreboundstudios.com)
 * [Dyscourse](http://store.steampowered.com/app/234920/) by [Owlchemy Labs](http://owlchemylabs.com/)
 * [Energy Hook](http://store.steampowered.com/app/378070/) by [Happion Labs](http://happionlabs.com/)
+* [Heathen Engineering's Terran](http://store.steampowered.com/app/427970/) by [Heathen Engineering](http://heathenengineering.com)
 * [High Strangeness](http://store.steampowered.com/app/268340/) by [Barnyard Intelligence Games](http://barnyardintelligence.com)
 * [Hot Tin Roof: The Cat That Wore A Fedora](http://store.steampowered.com/app/253390/) by [Glass Bottom Games](http://glassbottomgames.com/)
 * [Hyphen](http://store.steampowered.com/app/346510/) by [FarSpace Studios](http://farspacestudios.com/)
@@ -48,5 +51,3 @@ Steamworks.NET is used by over 200 games currently shipping on Steam! These are 
 * [Windward](http://store.steampowered.com/app/326410/) by [Tasharen Entertainment Inc.](http://www.tasharen.com)
 * [You Must Build A Boat](http://store.steampowered.com/app/290890/) by [EightyEightGames](http://eightyeightgames.com)
 * [Yrminsul](http://store.steampowered.com/app/412490/) by [Black Flag Studios](http://studioblackflag.com)
-
-If you want your game on this list send me an [Email](mailto:support@rileylabrecque.com) or a message on [Twitter](http://twitter.com/rileylabrecque)!
