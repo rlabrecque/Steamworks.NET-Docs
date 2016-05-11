@@ -20,6 +20,7 @@ If you want your game on this list send me an [Email](mailto:support@rileylabrec
 * [Clumsy Moose Season](http://store.steampowered.com/app/409410) by [Enrick Lambert](http://enrickdev.com)
 * [Conflicks - Revolutionary Space Battles](http://store.steampowered.com/app/288260) by [Artifice Studio](http://artificestudio.com)
 * [Dead Sky](http://store.steampowered.com/app/259700/) by [Shorebound Studios](http://shoreboundstudios.com)
+* [Dungeon Escape](http://store.steampowered.com/app/454100) by [Alexey Roenko](https://twitter.com/Lehha95)
 * [Dyscourse](http://store.steampowered.com/app/234920/) by [Owlchemy Labs](http://owlchemylabs.com/)
 * [Energy Hook](http://store.steampowered.com/app/378070/) by [Happion Labs](http://happionlabs.com/)
 * [Heathen Engineering's Terran](http://store.steampowered.com/app/427970/) by [Heathen Engineering](http://heathenengineering.com)
