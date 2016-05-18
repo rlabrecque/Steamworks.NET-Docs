@@ -39,6 +39,7 @@ If you want your game on this list send me an [Email](mailto:support@rileylabrec
 * [Robot Roller-Derby Disco Dodgeball](http://store.steampowered.com/app/270450/) by [82apps](http://82apps.com/)
 * [Scraps: Modular Vehicle Combat](http://store.steampowered.com/app/350150/) by [Moment Studio](http://momentstudio.co.nz)
 * [Shark Attack Deathmatch 2](http://store.steampowered.com/app/330580/) by [Lighthouse Games Studio](http://xna4.blogspot.ca/)
+* [Shoppe Keep](http://store.steampowered.com/app/381120/) by [Arvydas Žemaitis](http://strangefire.lt)
 * [Slybots: Frantic Zone](http://store.steampowered.com/app/384100/) by [Team ERROR, Tiny Colossus](http://slybots.com)
 * [Soccer Rage](http://store.steampowered.com/app/356510/) by [Stamina-Games](http://stamina-games.com/)
 * [Spectraball](http://store.steampowered.com/app/18300/) by [Shorebound Studios](http://shoreboundstudios.com)
