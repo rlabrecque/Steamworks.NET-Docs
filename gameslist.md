@@ -30,6 +30,7 @@ If you want your game on this list send me an [Email](mailto:support@rileylabrec
 * [Hyphen](http://store.steampowered.com/app/346510/) by [FarSpace Studios](http://farspacestudios.com/)
 * [Imagine Me](http://store.steampowered.com/app/265670/) by [KinifiGames LLC](http://imaginemegame.com)
 * [Indie Game Battle](http://store.steampowered.com/app/407620/) by [Blob Games Studio](https://twitter.com/blobgamesstudio)
+* [Oil Enterprise](http://store.steampowered.com/app/353630) by [Crafty Studios](http://industry-games.com)
 * [Parallax](http://store.steampowered.com/app/325060/) by [Toasty Games](http://toastygames.com/)
 * [PING 1.5+](http://store.steampowered.com/app/363580/) by [NAMI TENTOU MUSHI, LLC](http://namitentou.com)
 * [Pivvot](http://store.steampowered.com/app/293900/) by [Fixpoint Productions Ltd.](http://wtrebella.com)
