@@ -10,14 +10,15 @@ The simple instructions to get you up and running with Steamworks.NET!
 
 * Download the .unitypackage [Stable (7.0.0)](https://github.com/rlabrecque/Steamworks.NET/releases/download/7.0.0/Steamworks.NET_7.0.0.unitypackage) or Clone from [Github](https://github.com/rlabrecque/Steamworks.NET)
 * Import everything into your `Assets/` folder.
-* Launch your Unity project. The included editor scripts will copy steam_appid.txt (and steam_api.dll if your on windows) into the root of your project.
-* Open `steam_appid.txt` which now resides in the root of your Unity project and replace `480` with your own AppId.
-* Close Unity and relaunch the project so that it loads the freshly copied steam_appid.txt & steam_api.dll.
+* Launch your Unity project. The included editor scripts will copy steam_appid.txt into the root of your project.
+* Open the `steam_appid.txt` which now resides in the root of your Unity project and replace `480` with your own AppId.
+* Close Unity and relaunch the project so that it loads the freshly updated steam_appid.txt.
 * You are ready to start coding with Steamworks.NET!
 
 Head over to [Getting Started](/gettingstarted/) to start using Steamworks.NET
 
 _Steamworks.NET_ is a free project but if it helps you make money please consider donating so that I can continue to support it in the years to come!
+Also never ever required but greatly appreciated is a mention in your credits.
 
 [![Support via Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YFZZER8VNXKRC)
 
@@ -32,7 +33,8 @@ If you are not using Unity then you have two available routes that you could tak
 	* Reference the built assembly (Steamworks.NET.dll) in your project.
 	* Start coding! Call SteamAPI.Init() before starting up your renderer.
 * B: Copy `Plugins/Steamworks.NET` into your C# project. In Visual Studio open your project properties, change to the Build tab and define `STEAMWORKS_WIN` or `STEAMWORKS_LIN_OSX` globally via `Conditional compilation symbols`.
-	* This is only recommended if your binary is not portable across platforms already. If you ship on multiple platforms you must have multiple build targets for each platforms. Please prefer the second route.
+	* This is only recommended if your binary is not portable across platforms already. If you ship on multiple platforms you must have multiple build targets for each platforms. Please prefer the first route.
+
 * When you build your application the following files must be copied into the output dir:
 	* All Platforms:
 		* **steam_appid.txt** - Required for testing your application outside of steam. *Do not ship this to customers!*
