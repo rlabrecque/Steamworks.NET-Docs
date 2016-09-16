@@ -189,4 +189,6 @@ Now that you have familiarized yourself with the building blocks of Steamworks c
 
 The [Steamworks.NET-Test](https://github.com/rlabrecque/Steamworks.NET-Test) project can be extremely valuable to figure out how accomplish various things in Steamworks.NET.
 
+There is also a [Steamworks.NET-GameServerTest](https://github.com/rlabrecque/Steamworks.NET-GameServerTest) project available which implements some of the basics of the Steamworks GameServer interface.
+
 It's also recommended that you have a look at Valve's own documentation on [Getting started with the Steamworks API](https://partner.steamgames.com/documentation/getting_started)!
