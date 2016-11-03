@@ -57,6 +57,7 @@ If you want your game on this list send me an [Email](mailto:support@rileylabrec
 * [Unturned](http://store.steampowered.com/app/304930/) by [Smartly Dressed Games](http://smartlydressedgames.com)
 * [Vertiginous Golf](http://store.steampowered.com/app/272890/) by [Kinelco Ltd](http://kinelco.com/) & [Lone Elk Creative](http://lone-elk.com/)
 * [VolChaos](http://store.steampowered.com/app/354030/) by [Fun Infused Games](http://funinfused.com)
+* [VR Battle Grid](http://store.steampowered.com/app/495030/) by [Fred Sauer](http://store.steampowered.com/app/495030/)
 * [Windward](http://store.steampowered.com/app/326410/) by [Tasharen Entertainment Inc.](http://www.tasharen.com)
 * [You Must Build A Boat](http://store.steampowered.com/app/290890/) by [EightyEightGames](http://eightyeightgames.com)
 * [Yrminsul](http://store.steampowered.com/app/412490/) by [Black Flag Studios](http://studioblackflag.com)
