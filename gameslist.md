@@ -12,6 +12,7 @@ If you want your game on this list send me an [Email](mailto:support@rileylabrec
 * [Absolute Drift](http://store.steampowered.com/app/320140/) by [Funselektor Labs Inc.](http://absolutedrift.com/)
 * [Adventure in the Tower of Flight](http://store.steampowered.com/app/368830/) by [Pixel Barrage Entertainment, Inc.](http://pixelbarrage.com/)
 * [Alter World](http://store.steampowered.com/app/357280/) by [Giorgi Abelashvili](http://alterworldgame.com/)
+* [Astervoid 2000](http://store.steampowered.com/app/423870/) by [Mad Capacity](http://madcapacity.com/) & [LREVG](http://soundcloud.com/lrevg)
 * [Autocraft](http://store.steampowered.com/app/287220/) by [Alientrap](http://www.alientrap.org/)
 * [Ballistic Overkill](http://store.steampowered.com/app/296300/) by [Aquiris Game Studio](http://aquiris.com.br)
 * [Bit Blaster XL](http://store.steampowered.com/app/433950/) by [Nickervision Studios](http://nickervisionstudios.com)
