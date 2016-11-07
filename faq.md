@@ -52,6 +52,11 @@ No it doesn't. Unfortunately the Steam DRM wrapper does not play well with .NET 
 
 This is most likely either caused by not calling `SteamAPI.RunCallbacks()` at regular intervals in your game or not calling `SteamUserStats.StoreStats()` after you set an achievement.
 
+### Cam I disable compilation of Steamworks.NET on specific platforms?
+
+Yes! Just define `DISABLESTEAMWORKS`. This can be done with Unity in the Player Settings. For more information see [Unity's Documentation](https://docs.unity3d.com/Manual/PlatformDependentCompilation.html)
+Note that you will have to wrap all your code that calls Steamworks functions in `#if` statements as well.
+
 ### What versions of Unity are supported?
 
 Steamworks.NET currently targets Unity 4.7 and 5.0+. Unity Pro is required when using 4.7.
