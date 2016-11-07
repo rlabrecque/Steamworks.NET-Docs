@@ -18,17 +18,17 @@ Steam will only recognize a game as having shutdown when the last dependent proc
 
 See this [Github issue](https://github.com/rlabrecque/Steamworks.NET/issues/13) for common causes and fixes.
 
-### The Steam Overlay doesn't work or causes rendering errors!
+### The Steam Overlay doesn't work!
+
+For the Steam Overlay to work it must be injected before the renderer (DirectX/OpenGL) gets initialized. This is not feasible from Unity as Scripts only start running after the renderer is set up and injection is done through the `SteamAPI.Init()` API call.
+
+It should work fine when launched through Steam as Steam will always inject the overlay into all processes as it starts.
+
+It is highly recommended that you set your AppId in `SteamAPI.RestartAppIfNecessary()` which can be found in SteamManager. It will relaunch your application if it is launched from the exe directly, giving you the overlay all the time.
+
+### The Steam Overlay causes rendering errors!
 
 There are many cases where the overlay does not play nice with Unity, unfortunately this happens regardless of using Steamworks.NET and we are unable to resolve Steam Overlay issues as it is out of our control.
-
-Some such causes that are known to cause the overlay to break are:
-
- * The Overlay is not supported in the editor.
- * The Overlay is not supported when running from outside of steam.¹
- * There are incompatabilities between Unity and the Steam Overlay when running under DirectX11
-
-¹ For the Steam Overlay to work it must be injected before the renderer (DirectX/OpenGL) gets initialized. This is not feasible from Unity as Scripts only start running after the renderer is set up and injection is done in `SteamAPI.Init()`. It works when launched through Steam as Steam will always inject the overlay right as the process starts.
 
 If you are running into overlay issues please check out [this](http://steamcommunity.com/groups/steamworks/discussions/0/540744936523837631/) Steamworks Discussions post.
 
