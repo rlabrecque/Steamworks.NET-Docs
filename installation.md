@@ -18,7 +18,7 @@ The simple instructions to get you up and running with Steamworks.NET!
 Head over to [Getting Started](/gettingstarted/) to start using Steamworks.NET
 
 _Steamworks.NET_ is a free project but if it helps you make money please consider donating so that I can continue to support it in the years to come!
-Also never ever required but greatly appreciated is a mention in your credits.
+Also never ever required but greatly appreciated is a mention in your credits. ([Examples](http://www.mobygames.com/developer/sheet/view/developerId,714285/))
 
 [![Support via Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YFZZER8VNXKRC)
 
