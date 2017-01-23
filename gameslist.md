@@ -54,6 +54,7 @@ If you want your game on this list send me an [Email](mailto:support@rileylabrec
 * [Soccer Rage](http://store.steampowered.com/app/356510/) by [Stamina-Games](http://stamina-games.com/)
 * [Spectraball](http://store.steampowered.com/app/18300/) by [Shorebound Studios](http://shoreboundstudios.com)
 * [Sprinter](http://store.steampowered.com/app/442260/) by [Light Step Games](http://sprinterthegame.com)
+* [Square Arena](http://store.steampowered.com/app/486350/) by [Hepta Games](http://square-arena.com)
 * [Star Balls](http://store.steampowered.com/app/366050/) by [Bolder Games](http://boldergames.com)
 * [Taxi](http://store.steampowered.com/app/488080/) by [petraguardsoftware](https://petraguardsoftware.com)
 * [The Tiny Tale 2](http://store.steampowered.com/app/340720/) by [Running Pillow](http://runningpillow.com/)
