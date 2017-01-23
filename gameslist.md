@@ -28,6 +28,7 @@ If you want your game on this list send me an [Email](mailto:support@rileylabrec
 * [Dungeon Rushers](http://store.steampowered.com/app/429620/) by [Goblinz Studio](http://goblinzstudio.com)
 * [Dyscourse](http://store.steampowered.com/app/234920/) by [Owlchemy Labs](http://owlchemylabs.com/)
 * [Energy Hook](http://store.steampowered.com/app/378070/) by [Happion Labs](http://happionlabs.com/)
+* [GoalkeepVr](http://store.steampowered.com/app/573550/) by [DigitalBadger](http://www.indiedb.com/company/digitalbadger)
 * [Heathen Engineering's Terran](http://store.steampowered.com/app/427970/) by [Heathen Engineering](http://heathenengineering.com)
 * [High Strangeness](http://store.steampowered.com/app/268340/) by [Barnyard Intelligence Games](http://barnyardintelligence.com)
 * [Hot Tin Roof: The Cat That Wore A Fedora](http://store.steampowered.com/app/253390/) by [Glass Bottom Games](http://glassbottomgames.com/)
