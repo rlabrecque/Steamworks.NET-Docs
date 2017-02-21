@@ -4,7 +4,7 @@ layout: default
 ---
 Steamworks.NET is used by over 200 games currently shipping on Steam! These are just a few that I know about.
 
-If you want your game on this list send me an [Email](mailto:support@rileylabrecque.com) or a message on [Twitter](http://twitter.com/rileylabrecque)!
+If you want your game on this list send me an [email](mailto:support@rileylabrecque.com) or a message on [Twitter](http://twitter.com/rileylabrecque)!
 
 * [A Druid's Duel](http://store.steampowered.com/app/333970/) by [Thoughtshelter Games](http://druidsduel.com/)
 * [AaaaaAAaaaAAAaaAAAAaAAAAA!!! for the Awesome](http://store.steampowered.com/app/15560/) by [Dejobaan Games, LLC](http://dejobaan.com/) & [Owlchemy Labs](http://owlchemylabs.com/)

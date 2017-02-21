@@ -2,6 +2,22 @@
 title: Changelog
 layout: default
 ---
+<h1 id="release-900">Release 9.0.0</h1>
+<ul>
+  <li>Feature: <strong>Updated to Steamworks SDK 1.39</strong></li>
+  <li>Feature: Improved Unity 4.7 and 5.5 support</li>
+  <li>Feature: Improved Steam Controller support</li>
+  <li>Feature: Added the ability to disable compiling by defining DISABLESTEAMWORKS</li>
+</ul>
+<ul>
+  <li>Changed: Made CallResult and Callback IDisposable.</li>
+  <li>Changed: Converted ISteamNetworking functions from IntPtr to byte[]</li>
+</ul>
+<ul>
+  <li>Fixed: null strings returned by Steamworks functions are now preserved. (<strong>Breaking change!</strong>)</li>
+</ul>
+<span>Released on: February 21, 2017</span>
+<hr />
 <h1 id="release-700">Release 7.0.0</h1>
 <ul>
   <li>Feature: <strong>Updated to Steamworks SDK 1.34</strong></li>
@@ -19,6 +35,7 @@ layout: default
   <li>Fixed: Removed uses of ICustomMarshaler as it causes Unitys Mono to crash in rare circumstances</li>
   <li>Fixed: Steamworks.NET no longer causes errors when building for unsupported platforms</li>
 </ul>
+<span>Released on: September 1, 2015</span>
 <hr />
 <h1 id="release-600">Release 6.0.0</h1>
 <ul>
@@ -37,6 +54,7 @@ layout: default
   <li>Fixed: ISteamHTMLSurface missing some of it’s parameters</li>
   <li>Fixed: Callbacks crashing under Mono 3.2.7 and higher</li>
 </ul>
+<span>Released on: February 19, 2015</span>
 <hr />
 <h1 id="release-500">Release 5.0.0</h1>
 <ul>
@@ -49,6 +67,7 @@ layout: default
   <li>Fixed: Corrected two ISteamMusicRemote function arguments from ‘IntPtr’ to ‘AppId_t[]’</li>
   <li>Fixed: Removed the readonly flag from copied files to play nicer with some version control systems. (Thanks @neophit)</li>
 </ul>
+<span>Released on: September 11, 2014</span>
 <hr />
 <h1 id="release-400">Release 4.0.0</h1>
 <ul>
@@ -80,7 +99,7 @@ layout: default
   * SteamGameServerNetworking.ReadP2PPacket()</code></pre>
   </li>
 </ul>
-
+<span>Released on: July 27, 2014</span>
 <hr />
 <h1 id="release-300">Release 3.0.0</h1>
 <ul>
@@ -123,7 +142,7 @@ layout: default
     </ul>
   </li>
 </ul>
-
+<span>Released on: June 26, 2014</span>
 <hr />
 <h1 id="release-210">Release 2.1.0</h1>
 <ul>
@@ -145,18 +164,22 @@ layout: default
   <li>Updated Steamworks to 1.28</li>
   <li>Redesigned the CallResult API to end up even closer to the C++ API</li>
 </ul>
+<span>Released on: February 18, 2014</span>
 <hr />
 <h1 id="release-110">Release 1.1.0</h1>
 <ul>
   <li>?</li>
 </ul>
+<span>Released on: February 7, 2014</span>
 <hr />
 <h1 id="release-101">Release 1.0.1</h1>
 <ul>
   <li>?</li>
 </ul>
+<span>Released on: January 6, 2014</span>
 <hr />
 <h1 id="release-100">Release 1.0.0</h1>
 <ul>
   <li>Initial Release</li>
 </ul>
+<span>Released on: December 6, 2013</span>

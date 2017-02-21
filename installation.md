@@ -8,14 +8,13 @@ The simple instructions to get you up and running with Steamworks.NET!
 
 ## Unity Instructions
 
-* Download the .unitypackage [Stable (7.0.0)](https://github.com/rlabrecque/Steamworks.NET/releases/download/7.0.0/Steamworks.NET_7.0.0.unitypackage) or Clone from [Github](https://github.com/rlabrecque/Steamworks.NET)
+* Download the [.unitypackage](https://github.com/rlabrecque/Steamworks.NET/releases/download/9.0.0/Steamworks.NET_9.0.0.unitypackage) or clone/download the latest version from [Github](https://github.com/rlabrecque/Steamworks.NET) [zip download](https://github.com/rlabrecque/Steamworks.NET/archive/master.zip).
 * Import everything into your `Assets/` folder.
 * Launch your Unity project. The included editor scripts will copy steam_appid.txt into the root of your project.
 * Open the `steam_appid.txt` which now resides in the root of your Unity project and replace `480` with your own AppId.
+* If you are using the github version you will want to grab the [SteamManager](https://github.com/rlabrecque/SteamManager/blob/master/SteamManager.cs) MonoBehaviour. It is included in the unitypackage.
 * Close Unity and relaunch the project so that it loads the freshly updated steam_appid.txt.
-* You are ready to start coding with Steamworks.NET!
-
-Head over to [Getting Started](/gettingstarted/) to start using Steamworks.NET
+* Head over to [Getting Started](/gettingstarted/) to start using Steamworks.NET!
 
 _Steamworks.NET_ is a free project but if it helps you make money please consider donating so that I can continue to support it in the years to come!
 Also never ever required but greatly appreciated is a mention in your credits. ([Examples](http://www.mobygames.com/developer/sheet/view/developerId,714285/))
@@ -26,13 +25,13 @@ Also never ever required but greatly appreciated is a mention in your credits. (
 
 ## Non-Unity Instructions
 
-If you are not using Unity then you have two available routes that you could take.
+If you are not using Unity then you have two available paths that you can take.
 
-* A: The peferable route is to build the standalone assemblies with the project file located in `Standalone/`. Alternatively you can download the prebuilt binaries which are available on the [Releases](https://github.com/rlabrecque/Steamworks.NET/releases) page.
+* A: The recommended route is to build the standalone assemblies with the project file located in `Standalone/` or download the prebuilt binaries which are available on the [Releases](https://github.com/rlabrecque/Steamworks.NET/releases) page.
 	* Open the Visual Studio solution (.sln) file, build both targets one for Windows and one for OSX & Linux. (Optional if you downloaded a prebuilt version)
 	* Reference the built assembly (Steamworks.NET.dll) in your project.
-	* Start coding! Call SteamAPI.Init() before starting up your renderer.
-* B: Copy `Plugins/Steamworks.NET` into your C# project. In Visual Studio open your project properties, change to the Build tab and define `STEAMWORKS_WIN` or `STEAMWORKS_LIN_OSX` globally via `Conditional compilation symbols`.
+	* Start coding! Call SteamAPI.Init() before initializing your renderer.
+* B: Otherwise, copy `Plugins/Steamworks.NET` directly into your C# project. In Visual Studio open your project properties, change to the Build tab and define `STEAMWORKS_WIN` or `STEAMWORKS_LIN_OSX` globally via `Conditional compilation symbols`.
 	* This is only recommended if your binary is not portable across platforms already. If you ship on multiple platforms you must have multiple build targets for each platforms. Please prefer the first route.
 
 * When you build your application the following files must be copied into the output dir:
@@ -44,18 +43,39 @@ If you are not using Unity then you have two available routes that you could tak
 		* **steam_api.dll**
 	* OSX:
 		* **CSteamworks.bundle**
-		* **Steamworks.NET.dll.config** - Lets Mono know where to find CSteamworks
+		* **Steamworks.NET.dll.config** - This lets Mono know where to find CSteamworks.
 	* Linux:
 		* **libCSteamworks.so**
 		* **libsteam_api.so**
 
 Head over to [Getting Started](/gettingstarted/) to start using Steamworks.NET
 
+_Steamworks.NET_ is a free project but if it helps you make money please consider donating so that I can continue to support it in the years to come!
+Also never ever required but greatly appreciated is a mention in your credits. ([Examples](http://www.mobygames.com/developer/sheet/view/developerId,714285/))
+
+[![Support via Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YFZZER8VNXKRC)
+
+---
+
+## Upgrade Instructions
+
+Upgrading Steamworks .NET is easy!
+
+If you are using the unitypackage simply open the unitypackage within your Unity project and import everything, overwriting the existing files.
+
+If you are upgrading to a source drop from github then clone or download the latest zip and copy the `Editor/` and `Plugins/` folders into your `Assets/` folder using Windows Explorer or Finder ensuring that you overwriting everything. If you try to drop these folders into the Unity Project view then the files are often duplicated. Then grab the latest SteamManager script and overwrite your old one, merging any changes you may have made to it.
+
+---
+
+## Uninstallation
+
+_Steamworks.NET_ does not come with an easy one click uninstaller, but it stores no additional data and can be cleanly removed simply by removing the files that were initially imported. This can be quickly done simply by deleting the `Editor/Steamworks.NET`, `Plugins/Steamworks.NET`, and `Plugins/CSteamworks.bundle` folders along with the `CSteamworks` and `steam_api` binaries in `Plugins/x86[_64]`, the SteamManager.cs script and then the `steam_appid.txt` in the root of your project.
+
 ---
 
 ## Using Steam Encrypted App Ticket?
 
-The functions exposed via `sdkencryptedappticket.h` are supported in Steamworks.NET but you will need to manually place the `sdkencryptedappticket.dll/so/dylib` binaries in the following locations depending on the platform:
+The functions exposed via `sdkencryptedappticket.h` are supported in Steamworks.NET but you will need to manually place the `sdkencryptedappticket.dll/so/dylib` binaries in one of the following locations depending on the platform:
 
 * Windows: Next to steam_api.dll
 * OSX: In `/Contents/Frameworks/MonoEmbedRuntime/osx/`
