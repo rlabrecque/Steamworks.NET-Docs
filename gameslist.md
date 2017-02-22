@@ -67,6 +67,7 @@ If you want your game on this list send me an [email](mailto:support@rileylabrec
 * [Vertiginous Golf](http://store.steampowered.com/app/272890/) by [Kinelco Ltd](http://kinelco.com/) & [Lone Elk Creative](http://lone-elk.com/)
 * [VolChaos](http://store.steampowered.com/app/354030/) by [Fun Infused Games](http://funinfused.com)
 * [VR Battle Grid](http://store.steampowered.com/app/495030/) by [Fred Sauer](http://store.steampowered.com/app/495030/)
+* [VR Monster Awakens](http://store.steampowered.com/app/566870/) by [FIGHT4DREAM LIMITED](http://fight4dream.com)
 * [Warden: Melody of the Undergrowth](http://store.steampowered.com/app/338310/) by [Cardboard Keep](http://cardboardkeep.com)
 * [Windward](http://store.steampowered.com/app/326410/) by [Tasharen Entertainment Inc.](http://www.tasharen.com)
 * [You Must Build A Boat](http://store.steampowered.com/app/290890/) by [EightyEightGames](http://eightyeightgames.com)
