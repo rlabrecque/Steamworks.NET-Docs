@@ -8,11 +8,11 @@ The simple instructions to get you up and running with Steamworks.NET!
 
 ## Unity Instructions
 
-* Download the [.unitypackage](https://github.com/rlabrecque/Steamworks.NET/releases/download/9.0.0/Steamworks.NET_9.0.0.unitypackage) or clone/download the latest version from [Github](https://github.com/rlabrecque/Steamworks.NET) [zip download](https://github.com/rlabrecque/Steamworks.NET/archive/master.zip).
-* Import everything into your `Assets/` folder.
+* Download the .unitypackage from the [Releases](https://github.com/rlabrecque/Steamworks.NET/releases) or clone/download the latest version from [Github](https://github.com/rlabrecque/Steamworks.NET) - ([zip download](https://github.com/rlabrecque/Steamworks.NET/archive/master.zip)).
+* Import everything into your `Assets/` folder. (If you're using a non release/github/zip version then the `Standalone/` folder does not need to be imported.)
 * Launch your Unity project. The included editor scripts will copy steam_appid.txt into the root of your project.
 * Open the `steam_appid.txt` which now resides in the root of your Unity project and replace `480` with your own AppId.
-* If you are using the github version you will want to grab the [SteamManager](https://github.com/rlabrecque/SteamManager/blob/master/SteamManager.cs) MonoBehaviour. It is included in the unitypackage.
+* Note: If you are using the github version you will want to grab the [SteamManager](https://raw.githubusercontent.com/rlabrecque/SteamManager/master/SteamManager.cs) MonoBehaviour. It is included in the unitypackage.
 * Close Unity and relaunch the project so that it loads the freshly updated steam_appid.txt.
 * Head over to [Getting Started](/gettingstarted/) to start using Steamworks.NET!
 
@@ -63,7 +63,7 @@ Upgrading Steamworks .NET is easy!
 
 If you are using the unitypackage simply open the unitypackage within your Unity project and import everything, overwriting the existing files.
 
-If you are upgrading to a source drop from github then clone or download the latest zip and copy the `Editor/` and `Plugins/` folders into your `Assets/` folder using Windows Explorer or Finder ensuring that you overwriting everything. If you try to drop these folders into the Unity Project view then the files are often duplicated. Then grab the latest SteamManager script and overwrite your old one, merging any changes you may have made to it.
+If you are upgrading to a source drop from github then clone or download the latest zip and copy the `Editor/` and `Plugins/` folders into your `Assets/` folder using Windows Explorer or Finder ensuring that you overwriting everything. If you try to drop these folders into the Unity Project view then the files are often duplicated. Then grab the latest SteamManager](https://raw.githubusercontent.com/rlabrecque/SteamManager/master/SteamManager.cs) script and overwrite your old one, merging any changes you may have made to it.
 
 ---
 
