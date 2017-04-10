@@ -15,6 +15,7 @@ If you want your game on this list send me an [email](mailto:support@rileylabrec
 * [Astervoid 2000](http://store.steampowered.com/app/423870/) by [Mad Capacity](http://madcapacity.com/) & [LREVG](http://soundcloud.com/lrevg)
 * [Autocraft](http://store.steampowered.com/app/287220/) by [Alientrap](http://www.alientrap.org/)
 * [Ballistic Overkill](http://store.steampowered.com/app/296300/) by [Aquiris Game Studio](http://aquiris.com.br)
+* [Beat Cop](http://store.steampowered.com/app/461950/) by [Pixel Crow](http://pixelcrow.com)
 * [Bit Blaster XL](http://store.steampowered.com/app/433950/) by [Nickervision Studios](http://nickervisionstudios.com)
 * [Black Forest](http://store.steampowered.com/app/523070/) by [Lemuria](http://blackforest.lemuria.org/)
 * [Bugspeed Collider](http://store.steampowered.com/app/415900/) by [Skelefactor](http://www.skelefactor.com/)
