@@ -56,6 +56,7 @@ If you want your game on this list send me an [email](mailto:support@rileylabrec
 * [Sprinter](http://store.steampowered.com/app/442260/) by [Light Step Games](http://sprinterthegame.com)
 * [Square Arena](http://store.steampowered.com/app/486350/) by [Hepta Games](http://square-arena.com)
 * [Star Balls](http://store.steampowered.com/app/366050/) by [Bolder Games](http://boldergames.com)
+* [Tabletop Simulator](http://store.steampowered.com/app/286160/) by [Berserk Games](http://berserk-games.com)
 * [Taxi](http://store.steampowered.com/app/488080/) by [petraguardsoftware](https://petraguardsoftware.com)
 * [The Tiny Tale 2](http://store.steampowered.com/app/340720/) by [Running Pillow](http://runningpillow.com/)
 * [Throbax TD](http://store.steampowered.com/app/341570/) by [Unterrainer Informatik OG](http://www.unterrainer.info)
