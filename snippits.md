@@ -26,5 +26,5 @@ for (int i = 0; i &lt; friendCount; ++i) {
 ## SteamUser
 
 ### How do I get the players unique SteamID?
-<pre><code>SteamID steamId = SteamUser.GetSteamID();
+<pre><code>CSteamID steamId = SteamUser.GetSteamID();
 Debug.Log(steamId);</code></pre>
