@@ -25,6 +25,7 @@ If you want your game on this list send me an [email](mailto:support@rileylabrec
 * [Conflicks - Revolutionary Space Battles](http://store.steampowered.com/app/288260) by [Artifice Studio](http://artificestudio.com)
 * [Crush Crush](http://store.steampowered.com/app/459820/) by [Sad Panda Studios](http://sadpandastudios.com)
 * [Dead Sky](http://store.steampowered.com/app/259700/) by [Shorebound Studios](http://shoreboundstudios.com)
+* [Drone Fighters](http://store.steampowered.com/app/612600/) by [Surreal Games](http://surrealvr.com)
 * [Dungeon Escape](http://store.steampowered.com/app/454100) by [Alexey Roenko](https://twitter.com/Lehha95)
 * [Dungeon Rushers](http://store.steampowered.com/app/429620/) by [Goblinz Studio](http://goblinzstudio.com)
 * [Dyscourse](http://store.steampowered.com/app/234920/) by [Owlchemy Labs](http://owlchemylabs.com)
