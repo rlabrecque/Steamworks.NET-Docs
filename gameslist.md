@@ -21,6 +21,7 @@ If you want your game on this list send me an [email](mailto:support@rileylabrec
 * [Bugspeed Collider](http://store.steampowered.com/app/415900/) by [Skelefactor](http://www.skelefactor.com)
 * [Castle Chaos](http://store.steampowered.com/app/412410/) by [Odd Comet Games](http://oddcometgames.com)
 * [Catlateral Damage](http://store.steampowered.com/app/329860/) by [Chris Chung, Fire Hose Games](http://catlateraldamage.com)
+* [Clone Drone in the Danger Zone](http://store.steampowered.com/app/597170/) by [Doborog Games](http://doborog.com)
 * [Clumsy Moose Season](http://store.steampowered.com/app/409410) by [Enrick Lambert](http://enrickdev.com)
 * [Conflicks - Revolutionary Space Battles](http://store.steampowered.com/app/288260) by [Artifice Studio](http://artificestudio.com)
 * [Crush Crush](http://store.steampowered.com/app/459820/) by [Sad Panda Studios](http://sadpandastudios.com)
