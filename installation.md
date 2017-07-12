@@ -17,9 +17,10 @@ The simple instructions to get you up and running with Steamworks.NET!
 * Head over to [Getting Started](/gettingstarted/) to start using Steamworks.NET!
 
 _Steamworks.NET_ is a free project but if it helps you make money please consider donating so that I can continue to support it in the years to come!
-Also never ever required but greatly appreciated is a mention in your credits. ([Examples](http://www.mobygames.com/developer/sheet/view/developerId,714285/))
 
 [![Support via Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YFZZER8VNXKRC)
+
+Also never ever required but greatly appreciated is a mention in your credits! It's free, easy, and can help a lot! ([Examples](http://www.mobygames.com/developer/sheet/view/developerId,714285/))
 
 ---
 
@@ -63,7 +64,7 @@ Upgrading Steamworks .NET is easy!
 
 If you are using the unitypackage simply open the unitypackage within your Unity project and import everything, overwriting the existing files.
 
-If you are upgrading to a source drop from github then clone or download the latest zip and copy the `Editor/` and `Plugins/` folders into your `Assets/` folder using Windows Explorer or Finder ensuring that you overwriting everything. If you try to drop these folders into the Unity Project view then the files are often duplicated. Then grab the latest SteamManager](https://raw.githubusercontent.com/rlabrecque/SteamManager/master/SteamManager.cs) script and overwrite your old one, merging any changes you may have made to it.
+If you are upgrading to a source drop from github then clone or download the latest zip and copy the `Editor/` and `Plugins/` folders into your `Assets/` folder using Windows Explorer or Finder ensuring that you overwriting everything. If you try to drop these folders into the Unity Project view then the files are often duplicated. Then grab the latest [SteamManager](https://raw.githubusercontent.com/rlabrecque/SteamManager/master/SteamManager.cs) script and overwrite your old one, merging any changes you may have made to it.
 
 ---
 
