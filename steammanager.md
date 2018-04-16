@@ -2,11 +2,13 @@
 title: How the SteamManager script works
 layout: default
 ---
+The SteamManager script is what we consider the 'usermode' code. It provides some basic logic to setup and maintain the connection with Steam.
+
 You will likely wish to make changes to the SteamManager script yourself and understanding why it does what it does is an important step to fully mastering Steamworks.
 
 ### Boilerplate
 
-All the below code is wrapped within a MonoBehavior class so that it can be added to a GameObject.
+All of the code below is wrapped within a MonoBehavior class so that it can be added to a GameObject.
 
 <pre><code>using UnityEngine;
 using System.Collections;
@@ -20,9 +22,9 @@ class SteamManager : MonoBehaviour {
 
 The SteamManager script relies on being created once and persisting throughout the duration of the game. This involves some rather heavy logic to integrate with Unity's GameObject system.
 
-We use a "Self-Creating Persistent Singleton" to accomplish this. You can read more about singletons in the wonderful [UnityPatterns](http://unitypatterns.com/singletons/) guidebook.
+We use a "Self-Creating Persistent Singleton" to accomplish this.
 
-With this pattern you can use the SteamManager from any scene in your game without having to manually place a SteamManager GameObject in each one. As usual refrain from interacting with the SteamManager from Awake() or OnDestroy() in other scripts as the execution order is not garenteed.
+With this pattern you can use the SteamManager from any scene in your game without having to manually place a SteamManager GameObject in each one. As usual refrain from interacting with the SteamManager from Awake() or OnDestroy() in other scripts as the execution order is not guaranteed.
 
 If you already have a method of maintaining global state in your game you may wish to replace this with your own method.
 
@@ -62,7 +64,7 @@ Steamworks.NET provides a couple non-essential sanity checks to ensure that Stea
 
 `Packsize.Test()` ensures that Steamworks.NET is running under the correct platform, In Unity under normal operation this should never return false.
 
-`DllCheck.Test()` checks to make sure the Steamworks redistributable binaries are the correct version. This is particularily useful when you upgrade Steamworks.NET, Especially if you are not using the Steamworks.NET editor scripts. Running Steamworks.NET with the wrong steam_api.dll will likely result in issues. (Currently only checks steam_api[64].dll)
+`DllCheck.Test()` checks to make sure the Steamworks redistributable binaries are the correct version. This is particularly useful when you upgrade Steamworks.NET, Especially if you are not using the Steamworks.NET editor scripts. Running Steamworks.NET with the wrong steam_api.dll will likely result in issues. (Currently only checks steam_api[64].dll)
 
 <pre><code>if (!Packsize.Test()) {
 	Debug.LogError("[Steamworks.NET] Packsize Test returned false, the wrong version of Steamworks.NET is being run in this platform.", this);
@@ -103,9 +105,9 @@ Being that this is the first Steamworks function which gets called it is the ide
 
 ### SteamAPI.Init
 
-The second Steamworks function which should be called is to `SteamAPI.Init()`, This start's the SteamAPI and must be called before any other Steamworks functions are called.
+The second Steamworks function which should be called is to `SteamAPI.Init()`, this starts the SteamAPI and must be called before any other Steamworks functions are called.
 
-If SteamAPI.Init() returns true then everything has been set up to proceede using Steamworks.NET
+If SteamAPI.Init() returns true then everything has been set up to proceed using Steamworks.NET
 
 Otherwise a return value of false is caused by one of three issues.
 
@@ -161,9 +163,9 @@ private void OnEnable() {
 
 ### SteamAPI.RunCallbacks
 
-For the Callback and CallResult systems to dispatch events `SteamAPI.RunCallbacks` must be called frequently. The more time between calls, the more potential latency between receiving events or results from the Steam API. 
+For the Callback and CallResult systems to dispatch events `SteamAPI.RunCallbacks` must be called frequently. The more time between calls, the more potential latency between receiving events or results from the Steam API.
 
-If you pause the game by setting Time.timeScale to 0 then Update() functions will no longer run. You want to look into alternatives to ensure that SteamAPI.RunCallbacks is running even when your game is paused. [Coroutines](http://docs.unity3d.com/Manual/Coroutines.html) may be a good option for you.
+If you pause the game by setting Time.timeScale to 0 then Update() functions will no longer run. You will want to look into alternatives to ensure that SteamAPI.RunCallbacks is running even when your game is paused. [Coroutines](http://docs.unity3d.com/Manual/Coroutines.html) may be a good option for you.
 
 Note that we ensure that the Steam API is initialized before calling any Steamworks functions.
 
