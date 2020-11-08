@@ -19,8 +19,6 @@ navigation:
   url: /gettingstarted/
 - text: SteamManager
   url: /steammanager/
-- text: Code Snippits
-  url: /snippits/
 - text: Frequently Asked Questions
   url: /faq/
 - text: Support
