@@ -86,7 +86,7 @@ If it returns false, your game was launched by the Steam client and execution co
 
 If the steam_appid.txt file is present in the current working directory then SteamAPI_RestartAppIfNecessary() will return false. This allows you to develop without relaunching through Steam every time.
 
-Being that this is the first Steamworks function which gets called it is the ideal location to ensure that the steam_api.dll and CSteamworks.dll can infact be loaded. This is accomplished by wrapping this function call in a try..catch block to catch DllNotFoundException.
+Being that this is the first Steamworks function which gets called it is the ideal location to ensure that the steam_api.dll can infact be loaded. This is accomplished by wrapping this function call in a try..catch block to catch DllNotFoundException.
 
 <pre><code>private void Awake() {
 	try {
