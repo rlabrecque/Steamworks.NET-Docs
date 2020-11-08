@@ -8,11 +8,13 @@ The simple instructions to get you up and running with Steamworks.NET!
 
 ## Unity Instructions
 
-* Download the .unitypackage from the [Releases](https://github.com/rlabrecque/Steamworks.NET/releases) or clone/download the latest version from [Github](https://github.com/rlabrecque/Steamworks.NET) - ([zip download](https://github.com/rlabrecque/Steamworks.NET/archive/master.zip)).
-* Import everything into your `Assets/` folder. (If you're using a non release/github/zip version then the `Standalone/` folder does not need to be imported.)
+* Option A: Download the .unitypackage from the [Releases](https://github.com/rlabrecque/Steamworks.NET/releases).
+  * Import everything into your project's `Assets/` folder.
+* Option B: Download the latest version from the [Github](https://github.com/rlabrecque/Steamworks.NET) master branch ([direct link](https://github.com/rlabrecque/Steamworks.NET/archive/master.zip)).
+  * Copy everything into your project's `Assets/` folder. The `Standalone/` folder does not need to be imported.
+  * You may wish to grab the [SteamManager](https://raw.githubusercontent.com/rlabrecque/SteamManager/master/SteamManager.cs) MonoBehaviour. It is included in the unitypackage.
 * Launch your Unity project. The included editor scripts will copy steam_appid.txt into the root of your project.
 * Open the `steam_appid.txt` which now resides in the root of your Unity project and replace `480` with your own AppId.
-* Note: If you are using the github version you will want to grab the [SteamManager](https://raw.githubusercontent.com/rlabrecque/SteamManager/master/SteamManager.cs) MonoBehaviour. It is included in the unitypackage.
 * Close Unity and relaunch the project so that it loads the freshly updated steam_appid.txt.
 * Head over to [Getting Started](/gettingstarted/) to start using Steamworks.NET!
 
@@ -28,26 +30,20 @@ Also never ever required but greatly appreciated is a mention in your credits! I
 
 If you are not using Unity then you have two available paths that you can take.
 
-* A: The recommended route is to build the standalone assemblies with the project file located in `Standalone/` or download the prebuilt binaries which are available on the [Releases](https://github.com/rlabrecque/Steamworks.NET/releases) page.
-	* Open the Visual Studio solution (.sln) file, build both targets one for Windows and one for OSX & Linux. (Optional if you downloaded a prebuilt version)
-	* Reference the built assembly (Steamworks.NET.dll) in your project.
-	* Start coding! Call SteamAPI.Init() before initializing your renderer.
-* B: Otherwise, copy `Plugins/Steamworks.NET` directly into your C# project. In Visual Studio open your project properties, change to the Build tab and define `STEAMWORKS_WIN` or `STEAMWORKS_LIN_OSX` globally via `Conditional compilation symbols`.
-	* This is only recommended if your binary is not portable across platforms already. If you ship on multiple platforms you must have multiple build targets for each platforms. Please prefer the first route.
-
+* Option A: The recommended route is to build the standalone assemblies with the project file located in `Standalone/` or download the prebuilt binaries which are available on the [Releases](https://github.com/rlabrecque/Steamworks.NET/releases) page.
+  * Open the Visual Studio solution (.sln) file, build both targets one for Windows and one for OSX & Linux. (Optional if you downloaded a prebuilt version)
+  * Reference the built assembly (Steamworks.NET.dll) in your project.
+  * Start coding! Call SteamAPI.Init() before initializing your renderer.
+* Option B: Otherwise, copy `Plugins/Steamworks.NET` directly into your C# project. In Visual Studio open your project properties, change to the Build tab and define `STEAMWORKS_WIN` or `STEAMWORKS_LIN_OSX` globally via `Conditional compilation symbols`.
+  * This is only recommended if your binary is not portable across platforms already. If you ship on multiple platforms you must have multiple build targets for each platforms. Please prefer the first route.
 * When you build your application the following files must be copied into the output dir:
-	* All Platforms:
-		* **steam_appid.txt** - Required for testing your application outside of steam. *Do not ship this to customers!*
-		* **Steamworks.NET.dll** - Make sure it's the correct version for the platform that you plan on shipping for! - When building for OSX or Linux the wrong Steamworks.NET.dll will be copied over by default, it is recommended that you create a post build script to copy the correct version.
-	* Windows:
-		* **CSteamworks.dll**
-		* **steam_api.dll**
-	* OSX:
-		* **CSteamworks.bundle**
-		* **Steamworks.NET.dll.config** - This lets Mono know where to find CSteamworks.
-	* Linux:
-		* **libCSteamworks.so**
-		* **libsteam_api.so**
+  * All Platforms:
+    * **steam_appid.txt** - Required for testing your application outside of steam. **Do not ship this to customers!**
+    * **Steamworks.NET.dll** - Make sure it's the correct version for the platform that you plan on shipping for! - When building for OSX or Linux the wrong Steamworks.NET.dll will be copied over by default, it is recommended that you create a post build script to copy the correct version.
+  * Windows:
+    * **steam_api.dll**
+  * Linux:
+    * **libsteam_api.so**
 
 Head over to [Getting Started](/gettingstarted/) to start using Steamworks.NET
 
@@ -70,7 +66,7 @@ If you are upgrading to a source drop from github then clone or download the lat
 
 ## Uninstallation
 
-_Steamworks.NET_ does not come with an easy one click uninstaller, but it stores no additional data and can be cleanly removed simply by removing the files that were initially imported. This can be quickly done simply by deleting the `Editor/Steamworks.NET`, `Plugins/Steamworks.NET`, and `Plugins/CSteamworks.bundle` folders along with the `CSteamworks` and `steam_api` binaries in `Plugins/x86[_64]`, the SteamManager.cs script and then the `steam_appid.txt` in the root of your project.
+_Steamworks.NET_ does not come with an easy one click uninstaller, but it stores no additional data and can be cleanly removed simply by removing the files that were initially imported. This can be quickly done simply by deleting the `Editor/Steamworks.NET`, `Plugins/Steamworks.NET`, `steam_api` binaries in `Plugins/x86[_64]`, the SteamManager.cs script, and then the `steam_appid.txt` in the root of your project.
 
 ---
 
@@ -80,6 +76,6 @@ The functions exposed via `sdkencryptedappticket.h` are supported in Steamworks.
 
 * Windows: Next to steam_api.dll
 * OSX: In `/Contents/Frameworks/MonoEmbedRuntime/osx/`
-* Linux: Next to CSteamworks.so
+* Linux: Next to libsteam_api.so
 
 `sdkencryptedappticket.dll` can be found in the Steamworks SDK.
