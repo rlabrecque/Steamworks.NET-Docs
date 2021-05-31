@@ -60,3 +60,9 @@ Note that you will have to wrap all your code that calls Steamworks functions in
 ### What versions of Unity are supported?
 
 Steamworks.NET currently targets Unity 4.7 and 5.0+. Unity Pro is required when using 4.7.
+
+### What operating systems does Steamworks.NET support?
+
+Steamworks.NET supports the combination of all of the platforms that Unity and Steam both support. On Windows this is Windows XP and newer. On macOS it's [macOS 10.11 (El Capitan)](https://support.steampowered.com/kb_article.php?ref=5953-QTIO-1764) and newer.
+
+Currently Steam/Steamworks does not support native arm64 / Apple Silicon / Apple M1.
