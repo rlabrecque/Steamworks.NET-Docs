@@ -1,11 +1,11 @@
 # Site settings
 title: Steamworks.NET
-email: contact@rileylabrecque.com
+email: support@rileylabrecque.com
 description: "Steamworks.NET Documentation"
 baseurl: ""
 url: "/"
 twitter_username: rileylabrecque
-github_username:  rlabrecque
+github_username: rlabrecque
 
 # Build settings
 markdown: kramdown
