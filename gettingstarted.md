@@ -28,7 +28,6 @@ using Steamworks;</code></pre>
 
 Next we'll add our function call which gets the display name of the Steam user like so.
 
-
 <pre><code>public class SteamScript : MonoBehaviour {
 	void Start() {
 		if(SteamManager.Initialized) {
@@ -74,7 +73,6 @@ We usually do this in OnEnable as that allows us to recreate the Callback after 
 	}
 }</code></pre>
 
-
 The last piece of the puzzle is the OnGameOverlayActivated function.
 
 <pre><code>public class SteamScript : MonoBehaviour {
@@ -95,7 +93,6 @@ The last piece of the puzzle is the OnGameOverlayActivated function.
 		}
 	}
 }</code></pre>
-
 
 And that's it!
 

@@ -1,7 +1,9 @@
 ---
-title: How the SteamManager script works
+title: SteamManager
 layout: default
 ---
+## How the SteamManager script works
+
 The SteamManager script is what we consider the 'usermode' code. It provides some basic logic to setup and maintain the connection with Steam.
 
 You will likely wish to make changes to the SteamManager script yourself and understanding why it does what it does is an important step to fully mastering Steamworks.
@@ -111,9 +113,9 @@ If SteamAPI.Init() returns true then everything has been set up to proceed using
 
 Otherwise a return value of false is caused by one of three issues.
 
- * The Steam Client is not running. A running Steam client is required to provide implementations of the various Steamworks interfaces.
- * The Steam client couldn't determine the AppID of game. Make sure you have steam_appid.txt in your game directory. This should never happen when launching your game when downloaded through Steam, as SteamAPI.RestartAppIfNecessary() will relaunch it through Steam.
- * Ensure that your application is running under the same user context as the Steam client, including admin privledges.
+* The Steam Client is not running. A running Steam client is required to provide implementations of the various Steamworks interfaces.
+* The Steam client couldn't determine the AppID of game. Make sure you have steam_appid.txt in your game directory. This should never happen when launching your game when downloaded through Steam, as SteamAPI.RestartAppIfNecessary() will relaunch it through Steam.
+* Ensure that your application is running under the same user context as the Steam client, including admin privledges.
 
 If you're running into Init issues try running Microsoft's [DbgView](http://technet.microsoft.com/en-us/sysinternals/bb896647.aspx) prior to launching to get the internal output from Steam.
 

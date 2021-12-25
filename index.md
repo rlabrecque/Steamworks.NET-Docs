@@ -8,7 +8,7 @@ Steamworks.NET is a C# Wrapper for Valve's Steamworks API and is completely free
 
 You can use Steamworks.NET with [Unity](https://unity.com) or non-Unity based .NET projects.
 
-A primary goal of Steamworks.NET is to be as easy to get started as possible. See the 
+A primary goal of Steamworks.NET is to be as easy to get started as possible, while maintaining a near 1:1 mapping of the Steamworks C++ API.
 
 ---
 
@@ -50,6 +50,6 @@ The Steam Cloud provides the simpliest possible way to sync your save-game data 
 
 VAC is there to provide you with an additional layer of security in your competitive multiplayer experiences. It is very similar to a virus scanner and has maintains a list of known cheats to detect.
 
-### And many more features!
+### And many more features
 
 Infact Steamworks (and therefor Steamworks.NET by extension) contains far too many features to list!

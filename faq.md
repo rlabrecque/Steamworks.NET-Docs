@@ -18,7 +18,7 @@ Steam will only recognize a game as having shutdown when the last dependent proc
 
 See this [Github issue](https://github.com/rlabrecque/Steamworks.NET/issues/13) for common causes and fixes.
 
-### The Steam Overlay doesn't work!
+### The Steam Overlay doesn't work
 
 For the Steam Overlay to work it must be injected before the renderer (DirectX/OpenGL) gets initialized. This is not feasible from Unity as Scripts only start running after the renderer is set up and injection is done through the `SteamAPI.Init()` API call.
 
@@ -26,7 +26,7 @@ It should work fine when launched through Steam as Steam will always inject the 
 
 It is highly recommended that you set your AppId in `SteamAPI.RestartAppIfNecessary()` which can be found in SteamManager. It will relaunch your application if it is launched from the exe directly, giving you the overlay all the time.
 
-### The Steam Overlay causes rendering errors!
+### The Steam Overlay causes rendering errors
 
 There are many cases where the overlay does not play nice with Unity, unfortunately this happens regardless of using Steamworks.NET and we are unable to resolve Steam Overlay issues as it is out of our control.
 
@@ -36,7 +36,7 @@ If you are running into overlay issues please check out [this](http://steamcommu
 
 In theory it should work with any .NET based language! Documentation is only provided for C#, but many people have used it from UnityScript as well. Let me know if you're using it from Boo or F#!
 
-### My Unity build doesn't launch!
+### My Unity build doesn't launch
 
 You are likely missing the steam_appid.txt from your output folder. Steamworks.NET does not copy it over automatically because it is not something that you should be shipping to customers.
 
@@ -48,7 +48,7 @@ When you launch your game from outside of Steam it relies on steam_appid.txt to 
 
 No it doesn't. Unfortunately the Steam DRM wrapper does not play well with .NET applications such as Unity and your application will likely fail to start if it's wrapped. Even if it does succeed and work for you it will often fail on other computers.
 
-### The achievement popup only occurs after I quit my game.
+### The achievement popup only occurs after I quit my game
 
 This is most likely either caused by not calling `SteamAPI.RunCallbacks()` at regular intervals in your game or not calling `SteamUserStats.StoreStats()` after you set an achievement.
 
