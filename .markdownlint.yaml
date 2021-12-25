@@ -1,0 +1,8 @@
+# no-hard-tabs - Hard tabs
+MD010: false
+
+# line-length - Line length
+MD013: false
+
+# no-inline-html - Inline HTML
+MD033: false
