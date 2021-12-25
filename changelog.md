@@ -2,4 +2,4 @@
 title: Changelog
 layout: default
 ---
-See the [https://github.com/rlabrecque/Steamworks.NET/releases](Releases) page on github!
+See the [Releases](https://github.com/rlabrecque/Steamworks.NET/releases) page on github!
