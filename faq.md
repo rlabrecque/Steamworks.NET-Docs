@@ -38,7 +38,9 @@ In theory it should work with any .NET based language! Documentation is only pro
 
 ### My Unity build doesn't launch
 
-You are likely missing the steam_appid.txt from your output folder. Steamworks.NET does not copy it over automatically because it is not something that you should be shipping to customers.
+Please check the logs to see if it's Steamworks related, it could be that you're missing the steam_appid.txt in your output folder, or aren't running the game through steam, `SteamAPI.RestartAppIfNecessary()` might not be set. Steamworks.NET does not copy the steam_appid.txt over automatically because it is not something that you should be shipping to customers.
+
+If your build is shutting down due to `SteamAPI.Init()` failing as the SteamManager script does by default, double check that you own the game on your currently logged in account, otherwise follow Valve's documentation to troubleshoot such issues.
 
 ### Steam only shows me playing 'SpaceWar' how do I change it to my game?
 
@@ -59,10 +61,10 @@ Note that you will have to wrap all your code that calls Steamworks functions in
 
 ### What versions of Unity are supported?
 
-Steamworks.NET currently targets Unity 4.7 and 5.0+. Unity Pro is required when using 4.7.
+Steamworks.NET currently targets the oldest LTS release supported by Unity. Currently [Unity 2019.4](https://unity3d.com/unity/qa/lts-releases) is the "legacy LTS", and the oldest that Steamworks.NET officially supports.
+
+If you're running an older version of Unity you can try out an older release of Steamworks.NET such as version 15.0.1 which was the last release to officially support Unity 2019.3 and older.
 
 ### What operating systems does Steamworks.NET support?
 
 Steamworks.NET supports the combination of all of the platforms that Unity and Steam both support. On Windows this is Windows XP and newer. On macOS it's [macOS 10.11 (El Capitan)](https://support.steampowered.com/kb_article.php?ref=5953-QTIO-1764) and newer.
-
-Currently Steam/Steamworks does not support native arm64 / Apple Silicon / Apple M1.
