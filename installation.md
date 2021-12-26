@@ -15,9 +15,7 @@ The simple instructions to get you up and running with Steamworks.NET!
   1. Open the Package Manager
   2. Click the "+" (plus) button located in the upper left of the window
   3. Select the "Add package from git URL..." option
-  4. Enter the following URL: <https://github.com/rlabrecque/Steamworks.NET.git?path=/com.rlabrecque.steamworks.net>
-     Optionally specify a version number at the end like so: <https://github.com/rlabrecque/Steamworks.NET.git?path=/com.rlabrecque.steamworks.net#20.0.0>
-     This version number can be found on the [Releases](https://github.com/rlabrecque/Steamworks.NET/releases) page on GitHub.
+  4. Enter the following URL: <https://github.com/rlabrecque/Steamworks.NET.git?path=/com.rlabrecque.steamworks.net> to get the latest version from the master branch on github. It's recommended to specify a version number at the end such as: <https://github.com/rlabrecque/Steamworks.NET.git?path=/com.rlabrecque.steamworks.net#20.0.0> to get a pinned specific version. The latest version number can be found on the [Releases](https://github.com/rlabrecque/Steamworks.NET/releases) page on GitHub.
   5. Click the "Add" button and wait several seconds for the system to download and install the Steamworks.NET package from GitHub.
   6. Optionally: Manually download the [SteamManager](https://raw.githubusercontent.com/rlabrecque/SteamManager/master/SteamManager.cs) MonoBehavior which contains a starting point for using the Steamworks API in your project.
 * Option C: Manual installation
