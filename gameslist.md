@@ -47,6 +47,7 @@ If you want your game added to or removed from this list send me an [email](mail
 * [Caves of Qud](http://store.steampowered.com/app/333640/) by [Freehold Games](http://www.freeholdgames.com)
 * [Chuck's Challenge 3D](http://store.steampowered.com/app/262590/) by [Niffler Ltd.](http://niffler.co.uk)
 * [Clone Drone in the Danger Zone](http://store.steampowered.com/app/597170/) by [Doborog Games](http://doborog.com)
+* [Cloud Escape](http://store.steampowered.com/app/1731120/) by [Andreas Baum](https://store.steampowered.com/search/?developer=Andreas%20Baum)
 * [Cloudlands : VR Minigolf](http://store.steampowered.com/app/425720/) by [Futuretown](http://futuretown.io)
 * [Clumsy Moose Season](http://store.steampowered.com/app/409410) by [Enrick Lambert](http://enrickdev.com)
 * [Clustertruck](http://store.steampowered.com/app/397950/) by [Landfall](http://landfall.se)
