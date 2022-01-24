@@ -4,9 +4,15 @@ layout: default
 ---
 ## How the SteamManager script works
 
-The SteamManager script is what we consider the 'usermode' code. It provides some basic logic to setup and maintain the connection with Steam.
+The SteamManager script is what we consider the 'usermode' side of Steamworks. It provides some basic logic to setup and maintain the connection with Steam, and provides a decent starting spot for you to build upon.
 
-You will likely wish to make changes to the SteamManager script yourself and understanding why it does what it does is an important step to fully mastering Steamworks.
+You will likely need to make changes to the SteamManager script yourself, and understanding how it functions is an important step to fully mastering Steamworks.
+
+Alternatively you could write your own implementation if you have a platform abstraction layer yourself already.
+
+You can find the latest version of the SteamManager script on GitHub here: <https://github.com/rlabrecque/Steamworks.NET-SteamManager/blob/master/SteamManager.cs>
+
+Note that Steamworks.NET will do literally nothing without using something akin to the SteamManager script.
 
 ### Boilerplate
 
@@ -28,7 +34,7 @@ We use a "Self-Creating Persistent Singleton" to accomplish this.
 
 With this pattern you can use the SteamManager from any scene in your game without having to manually place a SteamManager GameObject in each one. As usual refrain from interacting with the SteamManager from Awake() or OnDestroy() in other scripts as the execution order is not guaranteed.
 
-If you already have a method of maintaining global state in your game you may wish to replace this with your own method.
+If you already have a method of maintaining global state in your game you may wish to replace this with your own method to ensure that it's set up in the proper order.
 
 <pre><code>private static SteamManager s_instance;
 private static SteamManager Instance {

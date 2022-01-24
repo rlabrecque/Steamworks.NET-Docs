@@ -17,11 +17,11 @@ The simple instructions to get you up and running with Steamworks.NET!
   3. Select the "Add package from git URL..." option
   4. Enter the following URL: <https://github.com/rlabrecque/Steamworks.NET.git?path=/com.rlabrecque.steamworks.net> to get the latest version from the master branch on github. It's recommended to specify a version number at the end such as: <https://github.com/rlabrecque/Steamworks.NET.git?path=/com.rlabrecque.steamworks.net#20.0.0> to get a pinned specific version. The latest version number can be found on the [Releases](https://github.com/rlabrecque/Steamworks.NET/releases) page on GitHub.
   5. Click the "Add" button and wait several seconds for the system to download and install the Steamworks.NET package from GitHub.
-  6. Optionally: Manually download the [SteamManager](https://raw.githubusercontent.com/rlabrecque/SteamManager/master/SteamManager.cs) MonoBehavior which contains a starting point for using the Steamworks API in your project.
+  6. Recommended but Optional: Manually download the [SteamManager](https://raw.githubusercontent.com/rlabrecque/SteamManager/master/SteamManager.cs) MonoBehavior which contains a starting point for using the Steamworks API in your project.
 * Option C: Manual installation
   1. Download the latest version from the [GitHub](https://github.com/rlabrecque/Steamworks.NET) master branch ([direct link](https://github.com/rlabrecque/Steamworks.NET/archive/master.zip)).
   2. Copy the `com.rlabrecque.steamworks.net/` folder into your project's `Assets/` folder via explorer or finder, do not try to drag and drop it into Unity's Project window.
-  3. Optionally: Manually download the [SteamManager](https://raw.githubusercontent.com/rlabrecque/SteamManager/master/SteamManager.cs) MonoBehaviour which contains a starting point for using the Steamworks API in your project.
+  3. Recommended but Optional: Manually download the [SteamManager](https://raw.githubusercontent.com/rlabrecque/SteamManager/master/SteamManager.cs) MonoBehaviour which contains a starting point for using the Steamworks API in your project.
 * Once imported the included editor scripts will copy steam_appid.txt into the root of your project.
 * Open the `steam_appid.txt` which now resides in the root of your Unity project and replace `480` with your own AppId. Ensure you save this file as ASCII or UTF-8 without a BOM.
 * Close Unity and relaunch the project so that it loads the freshly updated `steam_appid.txt`.
