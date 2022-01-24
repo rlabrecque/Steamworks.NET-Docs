@@ -68,3 +68,8 @@ If you're running an older version of Unity you can try out an older release of 
 ### What operating systems does Steamworks.NET support?
 
 Steamworks.NET supports the combination of all of the platforms that Unity and Steam both support. On Windows this is Windows XP and newer. On macOS it's [macOS 10.11 (El Capitan)](https://support.steampowered.com/kb_article.php?ref=5953-QTIO-1764) and newer.
+
+### Should I use the dlls from the Steamworks SDK?
+
+No! Steamworks.NET bundles the appropriate DLL's along side releases. Mismatching Steamworks.NET with DLL's from a different SDK WILL lead to crashing.
+
