@@ -37,7 +37,7 @@ Next we'll add our function call which gets the display name of the Steam user l
 	}
 }</code></pre>
 
-Note that we ALWAYS ensure that Steam is initalized by checking SteamManager.Initialized before calling any Steamworks functions.
+Note that we ALWAYS ensure that Steam is initialized by checking SteamManager.Initialized before calling any Steamworks functions.
 
 Now just add the script to a GameObject and try it out!
 
